@@ -1,0 +1,283 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+<sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" metaid="c4124f17-ac90-4ca4-be1d-2fe34c562a24" version="4">
+    <model id="MODEL_to_be_done" name="JPLeRouzic2018 - Interaction between astrocytes and neurons in Amyotrophic lateral sclerosis (ALS)" >
+        <notes>
+            <body xmlns="http://www.w3.org/1999/xhtml">
+                <div class="dc:title">JPLeRouzic2018 - Interactions between astrocytes
+                    and neurons in Amyotrophic lateral sclerosis (ALS)</div>
+                <div class="dc:description">Encoded non-curated model. Issues:      <br>To be done</br>
+                </div>
+                <div class="dc:bibliographicCitation">      
+                    <p>This model is described in the article:</p>
+                    <div class="bibo:title">        
+                        <a href="http://identifiers.org/pubmed/20552235" title="Access to this publication">Motor neuron-immune interactions: The vicious circle of ALS.</a>
+                    </div>
+                    <div class="bibo:authorList">Barbeito AG, Mesci P, Boillée S.</div>
+                    <div class="bibo:Journal">J Neural Transm (Vienna). 2010 Aug;117(8):981-1000.</div>
+                    <p>Abstract:</p>
+                    <div class="bibo:abstract">        
+                        <p>Because microglial cells, the resident macrophages of the CNS, react to any lesion of the nervous system,          <br/>
+                            they have for long been regarded as potential players in the pathogenesis of several neurodegenerative disorders including amyotrophic lateral sclerosis,          <br/>
+                            the most common motor neuron disease in the adult.          <br/>
+                            In recent years, this microglial reaction to motor neuron injury, in particular, and the innate immune response, in general,          <br/>
+                            has been implicated in the progression of the disease, in mouse models of ALS.          <br/>
+                            The mechanisms by which microglial cells influence motor neuron death in ALS are still largely unknown.          <br/>
+                            Microglial activation increases over the course of the disease and is associated with an alteration in the production of toxic factors and also          <br/>
+                            neurotrophic factors.          <br/>
+                            Adding to the microglial/macrophage response to motor neuron degeneration, the adaptive immune system can likewise influence the disease process.          <br/>
+                            Exploring these motor neuron-immune interactions could lead to a better understanding in the physiopathology of ALS to find          <br/>
+                            new pathways to slow down motor neuron degeneration.          </p>
+                    </div>
+                    <div class="dc:publisher">        
+                        <p>This model will be hosted on          <a href="http://www.ebi.ac.uk/biomodels/">BioModels Database</a>
+                            and identified by:          <a href="http://identifiers.org/biomodels.db/MODELtobedone">MODEL-to-be-done</a>
+                            .          </p>
+                        <p>To cite BioModels Database, please use:          <a href="http://identifiers.org/pubmed/20587024" title="Latest BioModels Database publication">BioModels Database:
+                                An enhanced, curated and annotated resource for published
+                                quantitative kinetic models</a>
+                            .          </p>
+                    </div>
+                    <div class="dc:license">        
+                        <p>To the extent possible under law, all copyright and related or
+                            neighbouring rights to this encoded model have been dedicated to
+                            the public domain worldwide. Please refer to          <a href="http://creativecommons.org/publicdomain/zero/1.0/" title="Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication">CC0
+                                Public Domain Dedication</a>
+                            for more information.          </p>
+                    </div>
+                </div>
+            </body>      
+        </notes>
+        <listOfUnitDefinitions>
+      <unitDefinition id="volume" name="volume" metaid="_38ba8c9f-937c-475c-813f-aa6ade0b1845">
+        <listOfUnits>
+          <unit scale="-3" exponent="1" metaid="a9cd72a6-2891-4f4a-99ce-1de794afd9c0" multiplier="1" kind="litre"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="time" name="time" metaid="_79bb7d94-2052-4d38-801e-f2de2f2cf67a">
+        <listOfUnits>
+          <unit scale="0" exponent="1" metaid="d517ee51-ff20-4f36-89a5-72cc7414e9c1" multiplier="86400" kind="second"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="substance" name="substance" metaid="_45963f6f-46e8-415f-83b9-f4ff8374d6fb">
+        <listOfUnits>
+          <unit scale="0" exponent="1" metaid="_80760473-3d2d-49a5-853b-c0db9933eb5d" multiplier="1" kind="dimensionless"/>
+        </listOfUnits>
+            </unitDefinition>
+        </listOfUnitDefinitions>
+        <listOfCompartments>
+            <compartment constant="true" size="1" metaid="COPASI1" name="Brain" id="Brain" spatialDimensions="3"/>
+        </listOfCompartments>
+        <listOfSpecies>
+            <species boundaryCondition="true" constant="false" metaid="COPASI2" hasOnlySubstanceUnits="false" compartment="Brain" name="LivingNeurons" id="LivingNeurons" initialConcentration="10000">
+                <notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <pre>Surviving neurons</pre>
+                    </body>
+          
+                </notes>
+            </species>
+            <species boundaryCondition="true" constant="false" metaid="COPASI3" hasOnlySubstanceUnits="false" compartment="Brain" name="DeadNeurons" id="DeadNeurons" initialConcentration="100">
+                <notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <pre>Dead neurons</pre>
+                    </body>
+          
+                </notes>
+            </species>
+            <species boundaryCondition="true" constant="false" metaid="COPASI4" hasOnlySubstanceUnits="false" compartment="Brain" name="Quiescent_Astroglia" id="Quiescent_Astroglia" initialConcentration="100000">
+                <notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <pre>Quiescent astroglia</pre>
+                    </body>
+          
+                </notes>
+            </species>
+            <species boundaryCondition="true" constant="false" metaid="COPASI5" hasOnlySubstanceUnits="false" compartment="Brain" name="Profilerating_Astroglia" id="Profilerating_Astroglia" initialConcentration="1000">
+                <notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <pre>Proliferating astroglia</pre>
+                    </body>
+          
+                </notes>
+            </species>
+            <species id="Anti_Inflammatory_Microglia" boundaryCondition="true" constant="false" metaid="COPASI6" hasOnlySubstanceUnits="false" compartment="Brain" name="Anti_Inflammatory_Microglia" initialConcentration="100000">
+                <notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <pre>Normal microglia</pre>
+                    </body>
+          
+                </notes>
+            </species>
+            <species id="ProInflammatoryMicroglia" boundaryCondition="true" constant="false" metaid="COPASI7" hasOnlySubstanceUnits="false" compartment="Brain" name="ProInflammatoryMicroglia" initialConcentration="1000">
+                <notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <pre>Reactive microglia</pre>
+                    </body>
+          
+                </notes>
+            </species>
+        </listOfSpecies>
+        <listOfParameters>
+            <parameter name="a1" constant="true" id="a1" metaid="COPASI9" value="1E-5"/>
+            <parameter name="a2" constant="true" id="a2" metaid="COPASI10" value="0.001"/>
+            <parameter name="a3" constant="true" id="a3" metaid="COPASI11" value="0.01"/>
+            <parameter name="a4" constant="true" id="a4" metaid="COPASI12" value="0.0001"/>
+            <parameter name="a5" constant="true" id="a5" metaid="COPASI13" value="0.01"/>
+            <parameter name="a6" constant="true" id="a6" metaid="COPASI14" value="0.01"/>
+            <parameter name="a7" constant="true" id="a7" metaid="COPASI15" value="0.0001"/>
+            <parameter name="a8" constant="true" id="a8" metaid="COPASI16" value="0.01"/>
+            <parameter name="a9" constant="true" id="a9" metaid="COPASI17" value="0.01"/>
+            <parameter name="a10" constant="true" id="a10" metaid="COPASI18" value="0.01"/>
+            <parameter name="a11" constant="true" id="a11" metaid="COPASI19" value="0.01"/>
+            <parameter name="a12" constant="true" id="a12" metaid="COPASI20" value="0.0001"/>
+            <parameter name="a13" constant="true" id="a13" metaid="COPASI21" value="0.01"/>
+            <parameter name="a14" constant="true" id="a14" metaid="COPASI22" value="0.0001"/>
+            <parameter name="a15" constant="true" id="a15" metaid="COPASI23" value="1"/>
+            <parameter name="a16" constant="false" id="a16" metaid="COPASI24" value="0.01"/>
+            <parameter name="ar" constant="true" id="ar" metaid="COPASI25" value="1"/>
+            <parameter name="Number of neurons" id="NbOfNeurons" value="1000000"/>
+            <parameter name="Nb of microglia" id="NbOfMicroglia" value="100000"/>
+            <parameter name="Nb of astrocytes" id="NbOfAstrocytes" value="200000"/>
+        </listOfParameters>
+        <listOfRules>
+            <rateRule variable="LivingNeurons" metaid="db19c551-9a1b-4c4f-a22b-5cb828b14a48">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">        
+                    <apply>
+                        <minus/>
+                        <apply>
+                            <minus/>
+                            <apply>
+                                <times/>
+                                <ci> a1 </ci>
+                                <ci> Quiescent_Astroglia </ci>
+                            </apply>
+                            <apply>
+                                <times/>
+                                <ci> a2 </ci>
+                                <ci> Profilerating_Astroglia </ci>
+                            </apply>
+                        </apply>
+                        <apply>
+                            <times/>
+                            <ci> a3 </ci>
+                            <ci> ProInflammatoryMicroglia </ci>
+                        </apply>
+                    </apply>
+                </math>
+            </rateRule>
+            <rateRule variable="DeadNeurons" metaid="c7b7bcea-1097-42ef-8111-4023cebc0e75">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">        
+                    <apply>
+                        <minus/>
+                        <ci> NbOfNeurons </ci>
+                        <ci> LivingNeurons </ci>
+                    </apply>
+                </math>
+            </rateRule>
+            <rateRule variable="Quiescent_Astroglia" metaid="_16d08848-7c59-4497-9147-a2bc5389f6fa">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">        
+                    <apply>
+                        <minus/>
+                        <apply>
+                            <times/>
+                            <ci> a4 </ci>
+                            <ci> Anti_Inflammatory_Microglia </ci>
+                        </apply>
+                        <apply>
+                            <times/>
+                            <ci> a5 </ci>
+                            <ci> ProInflammatoryMicroglia </ci>
+                        </apply>
+                    </apply>
+                </math>
+            </rateRule>
+            <rateRule variable="Profilerating_Astroglia" metaid="_788b482c-008b-4d79-95da-96efe85f6032">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">        
+                    <apply>
+                        <minus/>
+                        <ci> NbOfAstrocytes </ci>
+                        <ci> Profilerating_Astroglia </ci>
+                    </apply>
+                </math>
+            </rateRule>
+            <rateRule variable="Anti_Inflammatory_Microglia" metaid="fbad149e-46be-407f-97b8-f2f451c5fb42">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">        
+                    <apply>
+                        <plus/>
+                        <apply>
+                            <minus/>
+                            <apply>
+                                <plus/>
+                                <apply>
+                                    <minus/>
+                                    <apply>
+                                        <times/>
+                                        <apply>
+                                            <plus/>
+                                            <ci> a6 </ci>
+                                            <ci> a11 </ci>
+                                        </apply>
+                                        <ci> LivingNeurons </ci>
+                                    </apply>
+                                    <apply>
+                                        <times/>
+                                        <ci> a10 </ci>
+                                        <ci> DeadNeurons </ci>
+                                    </apply>
+                                </apply>
+                                <apply>
+                                    <times/>
+                                    <apply>
+                                        <plus/>
+                                        <ci> a7 </ci>
+                                        <ci> a12 </ci>
+                                    </apply>
+                                    <ci> Quiescent_Astroglia </ci>
+                                </apply>
+                            </apply>
+                            <apply>
+                                <times/>
+                                <ci> a9 </ci>
+                                <ci> ProInflammatoryMicroglia </ci>
+                            </apply>
+                        </apply>
+                        <apply>
+                            <times/>
+                            <ci> a14 </ci>
+                            <ci> Anti_Inflammatory_Microglia </ci>
+                        </apply>
+                    </apply>
+                </math>
+            </rateRule>
+            <rateRule variable="ProInflammatoryMicroglia" metaid="_88860791-365a-4268-9a37-235173f8db38">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">        
+                    <apply>
+                        <minus/>
+                        <ci> NbOfMicroglia </ci>
+                        <ci> Anti_Inflammatory_Microglia </ci>
+                    </apply>
+                </math>
+            </rateRule>
+        </listOfRules>
+        <listOfEvents>
+            <event name="3 years" id="_3_years" metaid="COPASI26">
+                <trigger metaid="c3f05f05-64c0-4344-b1d8-6a842c83f50c">
+                    <math xmlns="http://www.w3.org/1998/Math/MathML">          
+                        <apply>
+                            <geq/>
+                            <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
+                            <cn> 3 </cn>
+                        </apply>
+                    </math>
+                </trigger>
+                <listOfEventAssignments>
+                    <eventAssignment variable="a16" metaid="c8331efc-a5e1-46bf-9b5c-5a7badfc2b47">
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">            
+                            <ci> ar </ci>
+                        </math>
+                    </eventAssignment>
+                </listOfEventAssignments>
+            </event>
+        </listOfEvents>
+    </model>
+</sbml>
