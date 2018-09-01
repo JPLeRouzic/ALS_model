@@ -61,10 +61,10 @@
       </unitDefinition>
     </listOfUnitDefinitions>
     <listOfCompartments>
-      <compartment constant="true" size="1" metaid="COPASI1" name="Brain" id="Brain" spatialDimensions="3"/>
+      <compartment constant="true" size="1" metaid="COPASI1" name="CentralNervousSystem" id="CentralNervousSystem" spatialDimensions="3"/>
     </listOfCompartments>
     <listOfSpecies>
-      <species boundaryCondition="true" constant="false" metaid="COPASI2" hasOnlySubstanceUnits="false" compartment="Brain" name="LivingNeurons" id="LivingNeurons" initialConcentration="10000">
+      <species boundaryCondition="true" constant="false" metaid="COPASI2" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="LivingNeurons" id="LivingNeurons" initialConcentration="10000">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
                 <pre>Surviving neurons</pre>
@@ -72,7 +72,7 @@
           
         </notes>
 </species>
-      <species boundaryCondition="true" constant="false" metaid="COPASI3" hasOnlySubstanceUnits="false" compartment="Brain" name="DeadNeurons" id="DeadNeurons" initialConcentration="100">
+      <species boundaryCondition="true" constant="false" metaid="COPASI3" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="DeadNeurons" id="DeadNeurons" initialConcentration="100">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
                 <pre>Dead neurons</pre>
@@ -80,7 +80,7 @@
           
         </notes>
 </species>
-      <species boundaryCondition="true" constant="false" metaid="COPASI4" hasOnlySubstanceUnits="false" compartment="Brain" name="Quiescent_Astroglia" id="Quiescent_Astroglia" initialConcentration="100000">
+      <species boundaryCondition="true" constant="false" metaid="COPASI4" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="Quiescent_Astroglia" id="Quiescent_Astroglia" initialConcentration="100000">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
                 <pre>Quiescent astroglia</pre>
@@ -88,7 +88,7 @@
           
         </notes>
 </species>
-      <species boundaryCondition="true" constant="false" metaid="COPASI5" hasOnlySubstanceUnits="false" compartment="Brain" name="Profilerating_Astroglia" id="Profilerating_Astroglia" initialConcentration="1000">
+      <species boundaryCondition="true" constant="false" metaid="COPASI5" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="Profilerating_Astroglia" id="Profilerating_Astroglia" initialConcentration="1000">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
                 <pre>Proliferating astroglia</pre>
@@ -96,7 +96,7 @@
           
         </notes>
 </species>
-      <species boundaryCondition="true" constant="false" metaid="COPASI6" hasOnlySubstanceUnits="false" compartment="Brain" name="Anti_Inflammatory_Microglia" id="Anti_Inflammatory_Microglia" initialConcentration="100000">
+      <species boundaryCondition="true" constant="false" metaid="COPASI6" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="Anti_Inflammatory_Microglia" id="Anti_Inflammatory_Microglia" initialConcentration="100000">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
                 <pre>Normal microglia</pre>
@@ -104,7 +104,7 @@
           
         </notes>
 </species>
-      <species boundaryCondition="true" constant="false" metaid="COPASI7" hasOnlySubstanceUnits="false" compartment="Brain" name="ProInflammatoryMicroglia" id="ProInflammatoryMicroglia" initialConcentration="1000">
+      <species boundaryCondition="true" constant="false" metaid="COPASI7" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="ProInflammatoryMicroglia" id="ProInflammatoryMicroglia" initialConcentration="1000">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
                 <pre>Reactive microglia</pre>
