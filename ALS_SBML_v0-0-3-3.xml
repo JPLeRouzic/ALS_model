@@ -131,6 +131,30 @@
           
         </notes>
 </species>
+
+
+
+
+
+      <species boundaryCondition="true" constant="false" metaid="COPASI22" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="DentriticCell" id="DentriticCell" initialConcentration="1">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+                <pre>Dentritic Cell</pre>
+                    </body>
+          
+        </notes>
+</species>
+      <species boundaryCondition="true" constant="false" metaid="COPASI23" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="Cytokines" id="Cytokines" initialConcentration="1">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+                <pre>Cytokines</pre>
+                    </body>
+          
+        </notes>
+</species>
+
+
+
       <species boundaryCondition="true" constant="false" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="ADPn" id="ADPn" initialConcentration="0.0119296850858459">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
