@@ -67,7 +67,23 @@
       <compartment constant="true" size="0.0237" metaid="dd33450c-6095-4d8e-9482-3ad351480412" name="Veins" id="Veins" spatialDimensions="3"/>
     </listOfCompartments>
     <listOfSpecies>
-      <species boundaryCondition="true" constant="false" metaid="COPASI2" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="LivingNeurons" id="LivingNeurons" initialConcentration="999999">
+      <species boundaryCondition="true" constant="false" metaid="COPASI2" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="PreSynapticNeurons" id="PreSynapticNeurons" initialConcentration="999999">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+                <pre>Pre-Synaptic Neurons</pre>
+                    </body>
+          
+        </notes>
+</species>
+      <species boundaryCondition="true" constant="false" metaid="COPASI2" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="Exocytosis" id="Exocytosis" initialConcentration="999999">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+                <pre>Exocytosis</pre>
+                    </body>
+          
+        </notes>
+</species>
+      <species boundaryCondition="true" constant="false" metaid="COPASI2" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="LivingMotoNeurons" id="LivingMotoNeurons" initialConcentration="999999">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
                 <pre>Surviving neurons</pre>
@@ -75,7 +91,7 @@
           
         </notes>
 </species>
-      <species boundaryCondition="true" constant="false" metaid="COPASI3" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="DeadNeurons" id="DeadNeurons" initialConcentration="1">
+      <species boundaryCondition="true" constant="false" metaid="COPASI3" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="DeadMotoNeurons" id="DeadMotoNeurons" initialConcentration="1">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
                 <pre>Dead neurons</pre>
@@ -235,7 +251,7 @@
 
     </listOfParameters>
     <listOfRules>
-      <rateRule variable="DeadNeurons" metaid="db19c551-9a1b-4c4f-a22b-5cb828b14a48">
+      <rateRule variable="DeadMotoNeurons" metaid="db19c551-9a1b-4c4f-a22b-5cb828b14a48">
         <math xmlns="http://www.w3.org/1998/Math/MathML">        
           <apply>
             <times/>
@@ -264,11 +280,11 @@
           </apply>
         </math>
       </rateRule>
-      <rateRule variable="LivingNeurons" metaid="c7b7bcea-1097-42ef-8111-4023cebc0e75">
+      <rateRule variable="LivingMotoNeurons" metaid="c7b7bcea-1097-42ef-8111-4023cebc0e75">
         <math xmlns="http://www.w3.org/1998/Math/MathML">        
           <apply>
             <minus/>
-            <ci> DeadNeurons </ci>
+            <ci> DeadMotoNeurons </ci>
           </apply>
         </math>
       </rateRule>
@@ -312,7 +328,7 @@
               <apply>
                 <times/>
                 <ci> a1 </ci>
-                <ci> DeadNeurons </ci>
+                <ci> DeadMotoNeurons </ci>
               </apply>
               <cn type="integer"> 10 </cn>
             </apply>
@@ -321,7 +337,7 @@
       </rateRule>
       <rateRule variable="Pro_Inflammatory_Microglia" metaid="_88860791-365a-4268-9a37-235173f8db38">
         <math xmlns="http://www.w3.org/1998/Math/MathML">        
-          <ci> DeadNeurons </ci>
+          <ci> DeadMotoNeurons </ci>
         </math>
       </rateRule>
       <assignmentRule variable="ADPn" metaid="_1c5f967c-e7e4-4d8b-899b-3eea9570452e">
@@ -549,13 +565,13 @@
           <math xmlns="http://www.w3.org/1998/Math/MathML">          
             <apply>
               <lt/>
-              <ci> LivingNeurons </ci>
+              <ci> LivingMotoNeurons </ci>
               <cn type="integer"> 0 </cn>
             </apply>
           </math>
         </trigger>
         <listOfEventAssignments>
-          <eventAssignment variable="LivingNeurons">
+          <eventAssignment variable="LivingMotoNeurons">
             <math xmlns="http://www.w3.org/1998/Math/MathML">            
               <cn type="integer"> 0 </cn>
             </math>
@@ -567,13 +583,13 @@
           <math xmlns="http://www.w3.org/1998/Math/MathML">          
             <apply>
               <geq/>
-              <ci> LivingNeurons </ci>
+              <ci> LivingMotoNeurons </ci>
               <cn type="integer"> 0 </cn>
             </apply>
           </math>
         </trigger>
         <listOfEventAssignments>
-          <eventAssignment variable="LivingNeurons">
+          <eventAssignment variable="LivingMotoNeurons">
             <math xmlns="http://www.w3.org/1998/Math/MathML">            
               <apply>
                 <plus/>
