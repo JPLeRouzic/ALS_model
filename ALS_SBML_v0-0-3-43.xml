@@ -1,0 +1,2733 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" metaid="c4124f17-ac90-4ca4-be1d-2fe34c562a24" version="4">
+  <model name="JPLeRouzic2018 - Interaction between astrocytes and neurons in Amyotrophic lateral sclerosis (ALS)" id="MODEL_to_be_done">
+    <notes>
+      <body xmlns="http://www.w3.org/1999/xhtml">
+        <div class="dc:title">JPLeRouzic2018 - Interactions between astrocytes
+                    and neurons in Amyotrophic lateral sclerosis (ALS)</div>
+            <div class="dc:description">Encoded non-curated model. Issues:      <br>To be done</br>
+                </div>
+            <div class="dc:bibliographicCitation">      <p>This model is described in the article:</p>
+                <div class="bibo:title">        <a href="http://identifiers.org/pubmed/20552235" title="Access to this publication">Motor neuron-immune interactions: The vicious circle of ALS.</a>
+                    </div>
+                <div class="bibo:authorList">Barbeito AG, Mesci P, Boillée S.</div>
+                <div class="bibo:Journal">J Neural Transm (Vienna). 2010 Aug;117(8):981-1000.</div>
+                <p>Abstract:</p>
+                <div class="bibo:abstract">        <p>Because microglial cells, the resident macrophages of the CNS, react to any lesion of the nervous system,          <br/>
+              they have for long been regarded as potential players in the pathogenesis of several neurodegenerative disorders including amyotrophic lateral sclerosis,          <br/>
+              the most common motor neuron disease in the adult.          <br/>
+              In recent years, this microglial reaction to motor neuron injury, in particular, and the innate immune response, in general,          <br/>
+              has been implicated in the progression of the disease, in mouse models of ALS.          <br/>
+              The mechanisms by which microglial cells influence motor neuron death in ALS are still largely unknown.          <br/>
+              Microglial activation increases over the course of the disease and is associated with an alteration in the production of toxic factors and also          <br/>
+              neurotrophic factors.          <br/>
+              Adding to the microglial/macrophage response to motor neuron degeneration, the adaptive immune system can likewise influence the disease process.          <br/>
+              Exploring these motor neuron-immune interactions could lead to a better understanding in the physiopathology of ALS to find          <br/>
+              new pathways to slow down motor neuron degeneration.          </p>
+                    </div>
+                <div class="dc:publisher">        <p>This model will be hosted on          <a href="http://www.ebi.ac.uk/biomodels/">BioModels Database</a>
+              and identified by:          <a href="http://identifiers.org/biomodels.db/MODELtobedone">MODEL-to-be-done</a>
+              .          </p>
+                    <p>To cite BioModels Database, please use:          <a href="http://identifiers.org/pubmed/20587024" title="Latest BioModels Database publication">BioModels Database:
+                                An enhanced, curated and annotated resource for published
+                                quantitative kinetic models</a>
+              .          </p>
+                    </div>
+                <div class="dc:license">        <p>To the extent possible under law, all copyright and related or
+                            neighbouring rights to this encoded model have been dedicated to
+                            the public domain worldwide. Please refer to          <a href="http://creativecommons.org/publicdomain/zero/1.0/" title="Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication">CC0
+                                Public Domain Dedication</a>
+              for more information.          </p>
+                    </div>
+                </div>
+            </body>
+      
+    </notes>
+    <listOfUnitDefinitions>
+      <unitDefinition name="volume" id="volume" metaid="_38ba8c9f-937c-475c-813f-aa6ade0b1845">
+        <listOfUnits>
+          <unit scale="-3" metaid="a9cd72a6-2891-4f4a-99ce-1de794afd9c0" kind="litre" multiplier="1" exponent="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition name="time" id="time" metaid="_79bb7d94-2052-4d38-801e-f2de2f2cf67a">
+        <listOfUnits>
+          <unit scale="0" metaid="d517ee51-ff20-4f36-89a5-72cc7414e9c1" kind="second" exponent="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition name="substance" id="substance" metaid="_45963f6f-46e8-415f-83b9-f4ff8374d6fb">
+        <listOfUnits>
+          <unit scale="0" metaid="_80760473-3d2d-49a5-853b-c0db9933eb5d" kind="dimensionless" multiplier="1" exponent="1"/>
+        </listOfUnits>
+      </unitDefinition>
+    </listOfUnitDefinitions>
+    <listOfCompartments>
+      <compartment constant="true" size="1" metaid="COPASI1" name="CentralNervousSystem" id="CentralNervousSystem" spatialDimensions="3"/>
+      <compartment constant="true" size="0.2" metaid="_9900a077-72fa-46e3-9b6c-81856a5bdb48" name="Extracellular space" id="Extracellular_space" spatialDimensions="3"/>
+      <compartment constant="true" size="0.0055" metaid="_15807251-6568-48ac-8f23-b56570441672" name="Capillaries" id="Capillaries" spatialDimensions="3"/>
+      <compartment constant="true" size="0.0237" metaid="dd33450c-6095-4d8e-9482-3ad351480412" name="Veins" id="Veins" spatialDimensions="3"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species boundaryCondition="true" constant="false" metaid="COPASI2" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="PreSynapticNeurons" id="PreSynapticNeurons" initialConcentration="999999">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+                <pre>Pre-Synaptic Neurons</pre>
+                    </body>
+        </notes>
+</species>
+
+      <species boundaryCondition="true" constant="false" metaid="COPASI2" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="Exocytosis" id="Exocytosis" initialConcentration="999999">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+                <pre>Exocytosis</pre>
+                    </body>
+        </notes>
+</species>
+
+      <species boundaryCondition="true" constant="false" metaid="COPASI2" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="BrokenMotorUnit" id="BrokenMotorUnit" initialConcentration="1">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+                A motor unit is made up of a motor neuron and the skeletal muscle fibers innervated by that motor neuron's axonal terminals.<br/> 
+		Groups of motor units often work together to coordinate the contractions of a single muscle.<br/> 
+		All of the motor units within a muscle are considered a motor pool.                     </body>
+        </notes>
+</species>
+
+      <species boundaryCondition="true" constant="false" metaid="COPASI2" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="LivingUpperMotoNeurons" id="LivingUpperMotoNeurons" initialConcentration="999999">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+                Surviving Upper neurons<br/>
+		Upper motor neurons are found in the brain and carry motor information down the spinal cord to activate the lower motor neurons,
+                    </body>
+        </notes>
+</species>
+
+      <species boundaryCondition="true" constant="false" metaid="COPASI3" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="DeadUpperMotoNeurons" id="DeadUpperMotoNeurons" initialConcentration="1">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+                Dead Upper neurons<br/>
+		Upper motor neurons are found in the brain and carry motor information down the spinal cord to activate the lower motor neurons,
+                    </body>
+        </notes>
+</species>
+
+      <species boundaryCondition="true" constant="false" metaid="COPASI2" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="LivingLowerMotoNeurons" id="LivingLowerMotoNeurons" initialConcentration="999999">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+                Surviving lower motor neurons<br/>
+		The efferent fiber carries nerve impulses away from the  the spinal cord, and toward the muscles.<br/> 
+                    </body>
+        </notes>
+</species>
+
+      <species boundaryCondition="true" constant="false" metaid="COPASI3" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="DeadLowerMotoNeurons" id="DeadLowerMotoNeurons" initialConcentration="1">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+                Dead lower motor neurons<br/>
+		The efferent fiber carries nerve impulses away from the  the spinal cord, and toward the muscles.<br/> 
+                    </body>
+        </notes>
+</species>
+
+      <species boundaryCondition="true" constant="false" metaid="COPASI4" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="Quiescent_Astroglia" id="Quiescent_Astroglia" initialConcentration="200">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+                <pre>Quiescent astroglia</pre>
+                    </body>
+        </notes>
+</species>
+
+      <species boundaryCondition="true" constant="false" metaid="COPASI5" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="Pro_Inflammatory_Astroglia" id="Pro_Inflammatory_Astroglia" initialConcentration="50">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+                <pre>Proliferating astroglia</pre>
+                    </body>
+        </notes>
+</species>
+
+      <species boundaryCondition="true" constant="false" metaid="COPASI6" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="Anti_Inflammatory_Microglia" id="Anti_Inflammatory_Microglia" initialConcentration="200">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+                <pre>Normal microglia</pre>
+                    </body>
+        </notes>
+</species>
+
+      <species boundaryCondition="true" constant="false" metaid="COPASI7" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="Pro_Inflammatory_Microglia" id="Pro_Inflammatory_Microglia" initialConcentration="50">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+                <pre>Reactive microglia</pre>
+                    </body>
+        </notes>
+</species>
+
+      <species boundaryCondition="true" constant="false" metaid="COPASI25" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="Monocyte" id="Monocyte" initialConcentration="1">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+               			They are the largest type of leukocyte and can differentiate into macrophages and myeloid lineage dendritic cells.<br/>
+				Monocytes can differentiate into dendritic cells by adding the cytokines granulocyte macrophage colony-stimulating factor (GM-CSF) and interleukin 4.
+                    </body>
+        </notes>
+</species>
+
+      <species boundaryCondition="true" constant="false" metaid="COPASI22" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="B_Cell" id="B_Cell" initialConcentration="1">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+                B cells, also known as B lymphocytes, are a type of white blood cell.<br/>
+			* They secrete antibodies.<br/> 
+			* B cells are also classified as professional antigen-presenting cells (APCs)).<br/> 
+			* B cells secrete cytokines.<br/>
+                    </body>
+        </notes>
+</species>
+
+      <species boundaryCondition="true" constant="false" metaid="COPASI22" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="T_Cell" id="T_Cell" initialConcentration="1">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+		T cell, or T lymphocyte, is a type of lymphocyte that plays a central role in cell-mediated immunity.<br/> 
+		They mature in the thymus which "selects for" T cells capable of interacting with MHC, and kill the "non-self" cells.<br/>
+		On can further categorize T cells in:<br/>
+		    * Cytotoxic T cells (CD8+ T cells)<br/>
+		    * Helper T cells (CD4+ T cells)<br/>
+		    * Regulatory T cells<br/>
+		    * Natural Killer T cells
+                    </body>
+        </notes>
+</species>
+
+      <species boundaryCondition="true" constant="false" metaid="COPASI22" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="DentriticCell" id="DentriticCell" initialConcentration="1">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+                Dendritic cells are antigen-presenting cells. They process ("eat") material found in the ECM and present it to the T cells.<br/> 
+		They act as messengers between the innate and the adaptive immune systems. 
+                    </body>
+        </notes>
+</species>
+
+      <species boundaryCondition="true" constant="false" metaid="COPASI23" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="Cytokines" id="Cytokines" initialConcentration="1">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+                <pre>Cytokines</pre>
+                    </body>
+        </notes>
+</species>
+
+
+<!-- Metabolism -->
+      <species id="ADPn" initialConcentration="0.0119296850858459" constant="false" hasOnlySubstanceUnits="false" name="ADPn" metaid="COPASI2" boundaryCondition="true" compartment="CentralNervousSystem">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>Neuronal adenosine diphosphate</pre>
+          </body>
+        </notes>
+            </species>
+      <species id="ATPn" initialConcentration="2.2" constant="false" hasOnlySubstanceUnits="false" name="ATPn" metaid="COPASI3" boundaryCondition="true" compartment="CentralNervousSystem">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>Neuronal adenosine triphosphate</pre>
+          </body>
+        </notes>
+            </species>
+      <species id="Nan" initialConcentration="15" constant="false" hasOnlySubstanceUnits="false" name="Nan" metaid="COPASI4" boundaryCondition="true" compartment="CentralNervousSystem">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>Neuronal sodium</pre>
+          </body>
+        </notes>
+            </species>
+      <species id="GLCn" initialConcentration="1.2" constant="false" hasOnlySubstanceUnits="false" name="GLCn" metaid="COPASI5" boundaryCondition="true" compartment="CentralNervousSystem">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>Neuronal glucose</pre>
+          </body>
+        </notes>
+            </species>
+      <species id="GAPn" initialConcentration="0.0056" constant="false" hasOnlySubstanceUnits="false" name="GAPn" metaid="COPASI6" boundaryCondition="true" compartment="CentralNervousSystem">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>Neuronal glyceraldehyde-3-phosphate</pre>
+          </body>
+        </notes>
+            </species>
+      <species id="PEPn" initialConcentration="0.02" constant="false" hasOnlySubstanceUnits="false" name="PEPn" metaid="COPASI7" boundaryCondition="true" compartment="CentralNervousSystem">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>Neuronal phosphoenolpyruvate</pre>
+          </body>
+        </notes>
+            </species>
+      <species id="PYRn" initialConcentration="0.16" constant="false" hasOnlySubstanceUnits="false" name="PYRn" metaid="COPASI8" boundaryCondition="true" compartment="CentralNervousSystem">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>Neuronal pyruvate</pre>
+          </body>
+        </notes>
+            </species>
+      <species id="LACn" initialConcentration="1" constant="false" hasOnlySubstanceUnits="false" name="LACn" metaid="COPASI9" boundaryCondition="true" compartment="CentralNervousSystem">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>Neuronal lactate</pre>
+          </body>
+        </notes>
+            </species>
+      <species id="NADHn" initialConcentration="0.026" constant="false" hasOnlySubstanceUnits="false" name="NADHn" metaid="COPASI10" boundaryCondition="true" compartment="CentralNervousSystem">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>Neuronal reduced form of nicotinamide adenine nucleotide</pre>
+          </body>
+        </notes>
+            </species>
+      <species id="PCrn" initialConcentration="5" constant="false" hasOnlySubstanceUnits="false" name="PCrn" metaid="COPASI11" boundaryCondition="true" compartment="CentralNervousSystem">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>Neuronal phosphocreatine</pre>
+          </body>
+        </notes>
+            </species>
+      <species id="O2n" initialConcentration="0.026" constant="false" hasOnlySubstanceUnits="false" name="O2n" metaid="COPASI12" boundaryCondition="true" compartment="CentralNervousSystem">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>Neuronal oxygen</pre>
+          </body>
+        </notes>
+            </species>
+      <species id="AMPn" initialConcentration="7.03149141538795E-5" constant="false" hasOnlySubstanceUnits="false" name="AMPn" metaid="COPASI13" boundaryCondition="true" compartment="CentralNervousSystem">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>Neuronal adenosine monophosphate</pre>
+          </body>
+        </notes>
+            </species>
+      <species id="ATPg" initialConcentration="2.2" constant="false" hasOnlySubstanceUnits="false" name="ATPg" metaid="COPASI14" boundaryCondition="true" compartment="CentralNervousSystem">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>Atrocytic adenosine triphosphate</pre>
+          </body>
+        </notes>
+            </species>
+      <species id="Nag" initialConcentration="15" constant="false" hasOnlySubstanceUnits="false" name="Nag" metaid="COPASI15" boundaryCondition="true" compartment="CentralNervousSystem">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>Astrocytic sodium</pre>
+          </body>
+        </notes>
+            </species>
+      <species id="GLCg" initialConcentration="1.2" constant="false" hasOnlySubstanceUnits="false" name="GLCg" metaid="COPASI16" boundaryCondition="true" compartment="CentralNervousSystem">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>Astrocytic glucose</pre>
+          </body>
+        </notes>
+            </species>
+      <species id="GAPg" initialConcentration="0.00560000000000001" constant="false" hasOnlySubstanceUnits="false" name="GAPg" metaid="COPASI17" boundaryCondition="true" compartment="CentralNervousSystem">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>Astrocytic glyceraldehyde-3-phosphate</pre>
+          </body>
+        </notes>
+            </species>
+      <species id="PEPg" initialConcentration="0.02" constant="false" hasOnlySubstanceUnits="false" name="PEPg" metaid="COPASI18" boundaryCondition="true" compartment="CentralNervousSystem">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>Astrocytic phosphoenolpyruvate</pre>
+          </body>
+        </notes>
+            </species>
+      <species id="PYRg" initialConcentration="0.16" constant="false" hasOnlySubstanceUnits="false" name="PYRg" metaid="COPASI19" boundaryCondition="true" compartment="CentralNervousSystem">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>Astrocytic pyruvate</pre>
+          </body>
+        </notes>
+            </species>
+      <species id="LACg" initialConcentration="1.09" constant="false" hasOnlySubstanceUnits="false" name="LACg" metaid="COPASI20" boundaryCondition="true" compartment="CentralNervousSystem">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>Astrocytic lactate</pre>
+          </body>
+        </notes>
+            </species>
+      <species id="NADHg" initialConcentration="0.028" constant="false" hasOnlySubstanceUnits="false" name="NADHg" metaid="COPASI21" boundaryCondition="true" compartment="CentralNervousSystem">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>Astrocytic reduced form of nicotinamide adenine nucleotide</pre>
+          </body>
+        </notes>
+            </species>
+      <species id="PCrg" initialConcentration="5" constant="false" hasOnlySubstanceUnits="false" name="PCrg" metaid="COPASI22" boundaryCondition="true" compartment="CentralNervousSystem">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>Astrocytic phosphocreatine</pre>
+          </body>
+        </notes>
+            </species>
+      <species id="O2g" initialConcentration="0.026" constant="false" hasOnlySubstanceUnits="false" name="O2g" metaid="COPASI23" boundaryCondition="true" compartment="CentralNervousSystem">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>Astrocytic oxygen</pre>
+          </body>
+        </notes>
+            </species>
+      <species id="ADPg" initialConcentration="0.0119296850858464" constant="false" hasOnlySubstanceUnits="false" name="ADPg" metaid="COPASI24" boundaryCondition="true" compartment="CentralNervousSystem">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>Astrocytic adenosine diphosphate</pre>
+          </body>
+        </notes>
+            </species>
+      <species id="AMPg" initialConcentration="7.03149141538795E-5" constant="false" hasOnlySubstanceUnits="false" name="AMPg" metaid="COPASI25" boundaryCondition="true" compartment="CentralNervousSystem">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>Atrocytic adenosine monophosphate</pre>
+          </body>
+        </notes>
+            </species>
+      <species id="Nae" initialConcentration="150" constant="true" hasOnlySubstanceUnits="false" name="Nae" metaid="COPASI26" boundaryCondition="true" compartment="Extracellular_space">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>Extracellular sodium, fixed value used in equation A.21</pre>
+          </body>
+        </notes>
+           </species>
+      <species id="GLCe" initialConcentration="1.2" constant="false" hasOnlySubstanceUnits="false" name="GLCe" metaid="COPASI27" boundaryCondition="true" compartment="Extracellular_space">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>Extracellular glucose</pre>
+          </body>
+        </notes>
+            </species>
+      <species id="LACe" initialConcentration="1" constant="false" hasOnlySubstanceUnits="false" name="LACe" metaid="COPASI28" boundaryCondition="true" compartment="Extracellular_space">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>Extracellular lactate</pre>
+          </body>
+        </notes>
+            </species>
+      <species id="dHb" initialConcentration="0.064" constant="false" hasOnlySubstanceUnits="false" name="dHb" metaid="COPASI29" boundaryCondition="true" compartment="Capillaries">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>Deoxyhemoglobin</pre>
+          </body>
+        </notes>
+            </species>
+      <species id="O2c" initialConcentration="7" constant="false" hasOnlySubstanceUnits="false" name="O2c" metaid="COPASI30" boundaryCondition="true" compartment="Capillaries">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>Capillary oxygen</pre>
+          </body>
+        </notes>
+            </species>
+      <species id="GLCc" initialConcentration="4.56" constant="false" hasOnlySubstanceUnits="false" name="GLCc" metaid="COPASI31" boundaryCondition="true" compartment="Capillaries">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>Capillary glucose</pre>
+          </body>
+        </notes>
+            </species>
+      <species id="LACc" initialConcentration="0.35" constant="false" hasOnlySubstanceUnits="false" name="LACc" metaid="COPASI32" boundaryCondition="true" compartment="Capillaries">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>Capillary lactate</pre>
+          </body>
+        </notes>
+            </species>
+      <species id="O2a" initialConcentration="8.34" constant="true" hasOnlySubstanceUnits="false" name="O2a" metaid="COPASI33" boundaryCondition="true" compartment="Veins">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>Oxygen fixed value used in equation A.38</pre>
+          </body>
+        </notes>
+            </species>
+      <species id="GLCa" initialConcentration="4.8" constant="true" hasOnlySubstanceUnits="false" name="GLCa" metaid="COPASI34" boundaryCondition="true" compartment="Veins">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>Glucose fixed value used in equation A.39</pre>
+          </body>
+        </notes>
+            </species>
+      <species id="LACa" initialConcentration="0.313" constant="true" hasOnlySubstanceUnits="false" name="LACa" metaid="COPASI35" boundaryCondition="true" compartment="Veins">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>Lactate fixed value used in Equation A.40</pre>
+          </body>
+        </notes>
+            </species>
+      <species id="Vv" initialConcentration="0.0237" constant="false" hasOnlySubstanceUnits="false" name="Vv" metaid="COPASI36" boundaryCondition="true" compartment="Veins">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>Venous volume</pre>
+          </body>
+        </notes>
+            </species>    </listOfSpecies>
+    <listOfParameters>
+      <parameter name="a1" constant="true" id="a1" value="1">
+        <notes>
+          Dead neurons
+        </notes>
+</parameter>
+      <parameter name="a2" constant="true" id="a2" value="0.5">
+        <notes>
+          Living neurons
+        </notes>
+</parameter>
+      <parameter name="a3" constant="true" id="a3" value="0">
+        <notes>
+          Pro Inflammatory Microglia
+        </notes>
+</parameter>
+      <parameter name="a4" constant="true" id="a4" value="1">
+        <notes>
+          Anti Inflammatory Microglia
+        </notes>
+</parameter>
+      <parameter name="a5" constant="true" id="a5" value="1">
+        <notes>
+          Pro Inflammatory Astroglia
+        </notes>
+</parameter>
+      <parameter name="a7" constant="true" id="a7" value="0.5">
+        <notes>
+          Quiescent astroglia
+        </notes>
+</parameter>
+      <parameter name="Nb of neurons" id="NbOfNeurons" value="1000000">
+        <notes>
+          
+        </notes>
+</parameter>
+      <parameter name="Nb of microglia" id="NbOfMicroglia" value="100000">
+        <notes>
+          
+        </notes>
+</parameter>
+      <parameter name="Nb of astrocytes" id="NbOfAstrocytes" value="200000">
+        <notes>
+          
+        </notes>
+</parameter>
+
+<!-- Metabolism -->
+      <parameter id="rcn" constant="false" name="rcn" metaid="COPASI37" value="0.0122222222222222">
+            </parameter>
+      <parameter id="Vcap" constant="true" name="Vcap" metaid="COPASI38" value="0.0055">
+            </parameter>
+      <parameter id="Vn" constant="true" name="Vn" metaid="COPASI39" value="0.45">
+            </parameter>
+      <parameter id="rcg" constant="false" name="rcg" metaid="COPASI40" value="0.022">
+            </parameter>
+      <parameter id="Vg" constant="true" name="Vg" metaid="COPASI41" value="0.25">
+            </parameter>
+      <parameter id="rce" constant="false" name="rce" metaid="COPASI42" value="0.0275">
+            </parameter>
+      <parameter id="Ve" constant="true" name="Ve" metaid="COPASI43" value="0.2">
+            </parameter>
+      <parameter id="reg" constant="false" name="reg" metaid="COPASI44" value="0.8">
+            </parameter>
+      <parameter id="ren" constant="false" name="ren" metaid="COPASI45" value="0.444444444444444">
+            </parameter>
+      <parameter id="qAK" constant="true" name="qAK" metaid="COPASI46" value="0.92">
+            </parameter>
+      <parameter id="A" constant="true" name="A" metaid="COPASI47" value="2.212">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>AMP + ATP + ADP</pre>
+          </body>
+        </notes>
+            </parameter>
+      <parameter id="un" constant="false" name="un" metaid="COPASI48" value="0.866472727272727">
+            </parameter>
+      <parameter id="ug" constant="false" name="ug" metaid="COPASI49" value="0.866472727272728">
+            </parameter>
+      <parameter id="BOLD" constant="false" name="BOLD" metaid="COPASI50" value="8.90000000000044E-5">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>BOLD signal</pre>
+          </body>
+        </notes>
+            </parameter>
+      <parameter id="k1" constant="true" name="k1" metaid="COPASI51" value="2.22">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>4.3V0E0TE=4.3*40.3*0.32*0.04=2.22</pre>
+          </body>
+        </notes>
+            </parameter>
+      <parameter id="k2" constant="true" name="k2" metaid="COPASI52" value="0.46">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>Epsilon*r0*E0*TE=1.43*25*0.32*0.04=0.46</pre>
+          </body>
+        </notes>
+            </parameter>
+      <parameter id="k3" constant="true" name="k3" metaid="COPASI53" value="0.43">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>Epsilon-1=1.43-1=0.43</pre>
+          </body>
+        </notes>
+            </parameter>
+      <parameter id="E0" constant="true" name="E0" metaid="COPASI54" value="0.32">
+            </parameter>
+      <parameter id="Epsilon" constant="true" name="Epsilon" metaid="_35dfab48-3aae-4303-a962-6867c23828d9" value="1.43"/>
+      <parameter id="v0" constant="true" name="v0" metaid="d11093d8-58a2-44cd-bdca-a0da513da9e2" value="40.3"/>
+      <parameter id="TE" constant="true" name="TE" metaid="_714a20d3-0ca1-4811-97b6-127134be14e7" value="0.04"/>
+      <parameter id="r0" constant="true" name="r0" metaid="_69c99864-9855-4bda-9923-b0976a528468" value="25"/>
+      <parameter id="nop" constant="true" name="nop" metaid="COPASI55" value="15">
+            </parameter>
+      <parameter id="naero" constant="true" name="naero" metaid="COPASI56" value="3">
+            </parameter>
+      <parameter id="Sm_Vn" constant="true" name="Sm/Vn" metaid="COPASI57" value="90000">
+             </parameter>
+      <parameter id="Sm_Vg" constant="true" name="Sm/Vg" metaid="COPASI58" value="35000">
+            </parameter>
+      <parameter id="gnNa" constant="true" name="gnNa" metaid="COPASI59" value="0.0039">
+            </parameter>
+      <parameter id="ggNa" constant="true" name="ggNa" metaid="COPASI60" value="0.0039">
+            </parameter>
+      <parameter id="F" constant="true" name="F" metaid="COPASI61" value="96500">
+            </parameter>
+      <parameter id="RT_F" constant="true" name="RT/F" metaid="COPASI62" value="26.73">
+            </parameter>
+      <parameter id="Vm" constant="true" name="Vm" metaid="COPASI63" value="-70">
+             </parameter>
+      <parameter id="kPump" constant="true" name="kPump" metaid="COPASI64" value="2.9E-7">
+            </parameter>
+      <parameter id="km_Pump" constant="true" name="km,Pump" metaid="COPASI65" value="0.5">
+            </parameter>
+      <parameter id="vn1" constant="true" name="vn1" metaid="COPASI66" value="0.41">
+            </parameter>
+      <parameter id="vg1" constant="true" name="vg1" metaid="COPASI67" value="0.16">
+            </parameter>
+      <parameter id="vn2" constant="true" name="vn2" metaid="COPASI68" value="14.4">
+            </parameter>
+      <parameter id="vg2" constant="true" name="vg2" metaid="COPASI69" value="15.7">
+            </parameter>
+      <parameter id="taunStim" constant="true" name="taunStim" metaid="COPASI70" value="2">
+            </parameter>
+      <parameter id="taugStim" constant="true" name="taugStim" metaid="COPASI71" value="2">
+            </parameter>
+      <parameter id="Tenmax_GLC" constant="true" name="Tenmax,GLC" metaid="COPASI72" value="5230">
+            </parameter>
+      <parameter id="Tegmax_GLC" constant="true" name="Tegmax,GLC" metaid="COPASI73" value="1020">
+            </parameter>
+      <parameter id="Kent_GLC" constant="true" name="Kent,GLC" metaid="COPASI74" value="9">
+            </parameter>
+      <parameter id="Kegt_GLC" constant="true" name="Kegt,GLC" metaid="COPASI75" value="9">
+            </parameter>
+      <parameter id="Tcgmax_GLC" constant="true" name="Tcgmax,GLC" metaid="COPASI76" value="0.0093">
+            </parameter>
+      <parameter id="Kcgt_GLC" constant="true" name="Kcgt,GLC" metaid="COPASI77" value="9">
+            </parameter>
+      <parameter id="Tcemax_GLC" constant="true" name="Tcemax,GLC" metaid="COPASI78" value="0.118">
+            </parameter>
+      <parameter id="Kcet_GLC" constant="true" name="Kcet,GLC" metaid="COPASI79" value="9">
+            </parameter>
+      <parameter id="knHK_PFK" constant="true" name="knHK-PFK" metaid="COPASI80" value="0.12">
+            </parameter>
+      <parameter id="kgHK_PFK" constant="true" name="kgHK-PFK" metaid="COPASI81" value="0.047">
+            </parameter>
+      <parameter id="kI_ATP" constant="true" name="kI,ATP" metaid="COPASI82" value="1">
+            </parameter>
+      <parameter id="nH" constant="true" name="nH" metaid="COPASI83" value="4">
+            </parameter>
+      <parameter id="Kg" constant="true" name="Kg" metaid="COPASI84" value="0.05">
+            </parameter>
+      <parameter id="k_nPGK" constant="true" name="k'nPGK" metaid="COPASI85" value="42.6">
+            </parameter>
+      <parameter id="k_gPGK" constant="true" name="k'gPGK" metaid="COPASI86" value="18.2">
+            </parameter>
+      <parameter id="N" constant="true" name="N" metaid="COPASI87" value="0.212">
+            </parameter>
+      <parameter id="knPK" constant="true" name="knPK" metaid="COPASI88" value="86.7">
+             </parameter>
+      <parameter id="kgPK" constant="true" name="kgPK" metaid="COPASI89" value="34">
+            </parameter>
+      <parameter id="kn_LDH" constant="true" name="kn+LDH" metaid="COPASI90" value="2000">
+            </parameter>
+      <parameter id="kg_LDH" constant="true" name="kg+LDH" metaid="COPASI91" value="780">
+            </parameter>
+      <parameter id="kn_LDH_0" constant="true" name="kn-LDH" metaid="COPASI92" value="44.8">
+            </parameter>
+      <parameter id="kg_LDH_0" constant="true" name="kg-LDH" metaid="COPASI93" value="17.6">
+            </parameter>
+      <parameter id="Tnemax_LAC" constant="true" name="Tnemax,LAC" metaid="COPASI94" value="0.29">
+            </parameter>
+      <parameter id="Tgemax_LAC" constant="true" name="Tgemax,LAC" metaid="COPASI95" value="0.076">
+             </parameter>
+      <parameter id="Knet_LAC" constant="true" name="Knet,LAC" metaid="COPASI96" value="0.5">
+            </parameter>
+      <parameter id="Kget_LAC" constant="true" name="Kget,LAC" metaid="COPASI97" value="0.5">
+            </parameter>
+      <parameter id="Tgcmax_LAC" constant="true" name="Tgcmax,LAC" metaid="COPASI98" value="0.0058">
+            </parameter>
+      <parameter id="Kgct_LAC" constant="true" name="Kgct,LAC" metaid="COPASI99" value="0.5">
+            </parameter>
+      <parameter id="Tecmax_LAC" constant="true" name="Tecmax,LAC" metaid="COPASI100" value="0.00783">
+            </parameter>
+      <parameter id="Kect_LAC" constant="true" name="Kect,LAC" metaid="COPASI101" value="0.5">
+            </parameter>
+      <parameter id="Vnmax_Mito" constant="true" name="Vnmax,Mito" metaid="COPASI102" value="0.021">
+            </parameter>
+      <parameter id="Vgmax_Mito" constant="true" name="Vgmax,Mito" metaid="COPASI103" value="0.005">
+            </parameter>
+      <parameter id="Km_Mito" constant="true" name="Km,Mito" metaid="COPASI104" value="0.05">
+            </parameter>
+      <parameter id="KO2__A_34" constant="true" name="KO2 (A.34)" metaid="COPASI105" value="0.001">
+            </parameter>
+      <parameter id="KnmADP" constant="true" name="KnmADP" metaid="COPASI106" value="0.005">
+            </parameter>
+      <parameter id="KgmADP" constant="true" name="KgmADP" metaid="COPASI107" value="0.005">
+             </parameter>
+      <parameter id="kn_CK" constant="true" name="kn+CK" metaid="COPASI108" value="0.36">
+            </parameter>
+      <parameter id="kg_CK" constant="true" name="kg+CK" metaid="COPASI109" value="0.14">
+            </parameter>
+      <parameter id="kn_CK_0" constant="true" name="kn-CK" metaid="COPASI110" value="0.002">
+            </parameter>
+      <parameter id="kg_CK_0" constant="true" name="kg-CK" metaid="COPASI111" value="0.00078">
+            </parameter>
+      <parameter id="C" constant="true" name="C" metaid="COPASI112" value="10">
+            </parameter>
+      <parameter id="PScap_Vn" constant="true" name="PScap/Vn" metaid="COPASI113" value="1.73">
+            </parameter>
+      <parameter id="PScap_Vg" constant="true" name="PScap/Vg" metaid="COPASI114" value="0.414">
+            </parameter>
+      <parameter id="KO2__A_37" constant="true" name="KO2 (A.37)" metaid="COPASI115" value="0.0361">
+            </parameter>
+      <parameter id="Hb_OP" constant="true" name="Hb.OP" metaid="COPASI116" value="8.6">
+            </parameter>
+      <parameter id="nh" constant="true" name="nh" metaid="COPASI117" value="2.73">
+            </parameter>
+      <parameter id="alphaF" constant="true" name="alphaF" metaid="COPASI118" value="0.7">
+            </parameter>
+      <parameter id="F0" constant="true" name="F0" metaid="COPASI119" value="0.012">
+            </parameter>
+      <parameter id="t1" constant="true" name="t1" metaid="COPASI120" value="5">
+            </parameter>
+      <parameter id="tend" constant="true" name="tend" metaid="COPASI121" value="360">
+            </parameter>
+      <parameter id="alpha" constant="true" name="alpha" metaid="COPASI122" value="0.5">
+            </parameter>
+      <parameter id="tauv" constant="true" name="tauv" metaid="COPASI123" value="35">
+            </parameter>
+      <parameter id="VnLeak_Na" constant="false" name="VnLeak-Na" metaid="COPASI124" value="0.478480652197321">
+            </parameter>
+      <parameter id="VgLeak_Na" constant="false" name="VgLeak-Na" metaid="COPASI125" value="0.186075809187847">
+            </parameter>
+      <parameter id="VnPump" constant="false" name="VnPump" metaid="COPASI126" value="0.1595">
+            </parameter>
+      <parameter id="VgPump" constant="false" name="VgPump" metaid="COPASI127" value="0.0620277777777778">
+            </parameter>
+      <parameter id="VnStim_t" constant="false" name="VnStim(t)" metaid="COPASI128" value="0.41">
+            </parameter>
+      <parameter id="VgStim_t" constant="false" name="VgStim(t)" metaid="COPASI129" value="0.16">
+            </parameter>
+      <parameter id="VenGLC" constant="false" name="VenGLC" metaid="COPASI130" value="-1.45161660469739E-13">
+            </parameter>
+      <parameter id="VegGLC" constant="false" name="VegGLC" metaid="COPASI131" value="-2.83106871279415E-14">
+             </parameter>
+      <parameter id="VcgGLC" constant="false" name="VcgGLC" metaid="COPASI132" value="0.00203331598125976">
+            </parameter>
+      <parameter id="VceGLC" constant="false" name="VceGLC" metaid="COPASI133" value="0.0257990629880271">
+            </parameter>
+      <parameter id="VnHK_PFK" constant="false" name="VnHK-PFK" metaid="COPASI134" value="0.0103759989519193">
+            </parameter>
+      <parameter id="VgHK_PFK" constant="false" name="VgHK-PFK" metaid="COPASI135" value="0.00406393292283506">
+            </parameter>
+      <parameter id="VnPGK" constant="false" name="VnPGK" metaid="COPASI136" value="0.020359457514568">
+            </parameter>
+      <parameter id="VgPGK" constant="false" name="VgPGK" metaid="COPASI137" value="0.00799002588309649">
+            </parameter>
+      <parameter id="VnPK" constant="false" name="VnPK" metaid="COPASI138" value="0.0206860739388568">
+            </parameter>
+      <parameter id="VgPK" constant="false" name="VgPK" metaid="COPASI139" value="0.00811218585837556">
+            </parameter>
+      <parameter id="VnLDH" constant="false" name="VnLDH" metaid="COPASI140" value="-0.0127999999999933">
+            </parameter>
+      <parameter id="VgLDH" constant="false" name="VgLDH" metaid="COPASI141" value="-0.0354559999999995">
+            </parameter>
+      <parameter id="VneLAC" constant="false" name="VneLAC" metaid="COPASI142" value="0">
+            </parameter>
+      <parameter id="VgeLAC" constant="false" name="VgeLAC" metaid="COPASI143" value="0.00143396226415094">
+            </parameter>
+      <parameter id="VgcLAC" constant="false" name="VgcLAC" metaid="COPASI144" value="0.00158786533481317">
+             </parameter>
+      <parameter id="VecLAC" constant="false" name="VecLAC" metaid="COPASI145" value="0.00199588235294118">
+             </parameter>
+      <parameter id="VnMito" constant="false" name="VnMito" metaid="COPASI146" value="0.0108569957106509">
+            </parameter>
+      <parameter id="VgMito" constant="false" name="VgMito" metaid="COPASI147" value="0.00258499897872644">
+            </parameter>
+      <parameter id="VnATPases" constant="true" name="VnATPases" metaid="COPASI148" value="0.17">
+            </parameter>
+      <parameter id="VgATPases" constant="true" name="VgATPases" metaid="COPASI149" value="0.02">
+            </parameter>
+      <parameter id="VnCK" constant="false" name="VnCK" metaid="COPASI150" value="-0.000526566845477347">
+            </parameter>
+      <parameter id="VgCK" constant="false" name="VgCK" metaid="COPASI151" value="-0.000229220439907514">
+            </parameter>
+      <parameter id="VcnO2m" constant="false" name="VcnO2m" metaid="COPASI152" value="0.0622567892086977">
+            </parameter>
+      <parameter id="VcgO2m" constant="false" name="VcgO2m" metaid="COPASI153" value="0.0148984455100583">
+            </parameter>
+      <parameter id="VcO2" constant="false" name="VcO2" metaid="COPASI154" value="0">
+            </parameter>
+      <parameter id="VcGLC" constant="false" name="VcGLC" metaid="COPASI155" value="0">
+            </parameter>
+      <parameter id="VcLAC" constant="false" name="VcLAC" metaid="COPASI156" value="0">
+            </parameter>
+      <parameter id="Fin_t" constant="false" name="Fin_t" metaid="COPASI157" value="0">
+            </parameter>
+      <parameter id="Fout_t" constant="false" name="Fout_t" metaid="COPASI158" value="0.432990800253791">
+            </parameter>
+      <parameter id="O2C" constant="false" name="O2C/" metaid="COPASI159" value="5.66">
+            </parameter>
+      <parameter id="dAMP_dATPg" constant="false" name="dAMP-dATPg" metaid="COPASI160" value="-0.0116824720687283">
+            </parameter>
+      <parameter id="dAMP_dATPn" constant="false" name="dAMP-dATPn" metaid="COPASI161" value="-0.0116824720687279">
+            </parameter>
+      <parameter id="Vv0" constant="true" name="Vv0" metaid="COPASI162" value="0.0236">
+            </parameter>
+      <parameter id="dHb0" constant="true" name="dHb0" metaid="_24c62307-03c7-4516-a69b-93d461be4b2e" value="0.064"/>
+    </listOfParameters>
+    <listOfRules>
+      <rateRule variable="DeadLowerMotoNeurons" metaid="db19c551-9a1b-4c4f-a22b-5cb828b14a48">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <times/>
+            <ci> NbOfNeurons </ci>
+            <apply>
+              <divide/>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> a5 </ci>
+                  <ci> Pro_Inflammatory_Astroglia </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> a3 </ci>
+                  <ci> Pro_Inflammatory_Microglia </ci>
+                </apply>
+              </apply>
+              <apply>
+                <plus/>
+                <ci> NbOfAstrocytes </ci>
+                <ci> NbOfMicroglia </ci>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+      </rateRule>
+      <rateRule variable="LivingLowerMotoNeurons" metaid="c7b7bcea-1097-42ef-8111-4023cebc0e75">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <minus/>
+            <ci> DeadLowerMotoNeurons </ci>
+          </apply>
+        </math>
+      </rateRule>
+      <rateRule variable="Quiescent_Astroglia" metaid="_16d08848-7c59-4497-9147-a2bc5389f6fa">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <minus/>
+            <apply>
+              <times/>
+              <ci> a4 </ci>
+              <ci> Anti_Inflammatory_Microglia </ci>
+            </apply>
+            <apply>
+              <times/>
+              <ci> a5 </ci>
+              <ci> Pro_Inflammatory_Microglia </ci>
+            </apply>
+          </apply>
+        </math>
+      </rateRule>
+      <rateRule variable="Pro_Inflammatory_Astroglia" metaid="_788b482c-008b-4d79-95da-96efe85f6032">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <times/>
+            <ci> a3 </ci>
+            <ci> Pro_Inflammatory_Microglia </ci>
+          </apply>
+        </math>
+      </rateRule>
+      <rateRule variable="Anti_Inflammatory_Microglia" metaid="fbad149e-46be-407f-97b8-f2f451c5fb42">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <minus/>
+            <apply>
+              <times/>
+              <ci> a2 </ci>
+              <ci> Quiescent_Astroglia </ci>
+            </apply>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> a1 </ci>
+                <ci> DeadLowerMotoNeurons </ci>
+              </apply>
+              <cn type="integer"> 10 </cn>
+            </apply>
+          </apply>
+        </math>
+      </rateRule>
+      <rateRule variable="Pro_Inflammatory_Microglia" metaid="_88860791-365a-4268-9a37-235173f8db38">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <ci> DeadLowerMotoNeurons </ci>
+        </math>
+      </rateRule>
+<!-- Part about metabolism -->      <assignmentRule metaid="_1c5f967c-e7e4-4d8b-899b-3eea9570452e" variable="ADPn">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <times/>
+            <apply>
+              <divide/>
+              <ci> ATPn </ci>
+              <cn> 2 </cn>
+            </apply>
+            <apply>
+              <plus/>
+              <apply>
+                <minus/>
+                <ci> qAK </ci>
+              </apply>
+              <apply>
+                <power/>
+                <apply>
+                  <plus/>
+                  <apply>
+                    <power/>
+                    <ci> qAK </ci>
+                    <cn> 2 </cn>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <cn> 4 </cn>
+                    <ci> qAK </ci>
+                    <apply>
+                      <minus/>
+                      <apply>
+                        <divide/>
+                        <ci> A </ci>
+                        <ci> ATPn </ci>
+                      </apply>
+                      <cn> 1 </cn>
+                    </apply>
+                  </apply>
+                </apply>
+                <apply>
+                  <divide/>
+                  <cn> 1 </cn>
+                  <cn> 2 </cn>
+                </apply>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+            </assignmentRule>
+      <assignmentRule metaid="_6b972837-65ce-4a22-b5d9-08c5faa3ab15" variable="AMPn">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <minus/>
+            <ci> A </ci>
+            <apply>
+              <plus/>
+              <ci> ATPn </ci>
+              <ci> ADPn </ci>
+            </apply>
+          </apply>
+        </math>
+            </assignmentRule>
+      <assignmentRule metaid="_9c230dbd-a10d-4f1f-85a6-db3528c31c27" variable="ADPg">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <times/>
+            <apply>
+              <divide/>
+              <ci> ATPg </ci>
+              <cn> 2 </cn>
+            </apply>
+            <apply>
+              <plus/>
+              <apply>
+                <minus/>
+                <ci> qAK </ci>
+              </apply>
+              <apply>
+                <power/>
+                <apply>
+                  <plus/>
+                  <apply>
+                    <power/>
+                    <ci> qAK </ci>
+                    <cn> 2 </cn>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <cn> 4 </cn>
+                    <ci> qAK </ci>
+                    <apply>
+                      <minus/>
+                      <apply>
+                        <divide/>
+                        <ci> A </ci>
+                        <ci> ATPg </ci>
+                      </apply>
+                      <cn> 1 </cn>
+                    </apply>
+                  </apply>
+                </apply>
+                <apply>
+                  <divide/>
+                  <cn> 1 </cn>
+                  <cn> 2 </cn>
+                </apply>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+            </assignmentRule>
+      <assignmentRule metaid="_717efdf8-7e0f-445d-b5fc-a2986ebf99b4" variable="AMPg">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <minus/>
+            <ci> A </ci>
+            <apply>
+              <plus/>
+              <ci> ATPg </ci>
+              <ci> ADPg </ci>
+            </apply>
+          </apply>
+        </math>
+            </assignmentRule>
+      <assignmentRule metaid="_583b91ff-2702-44e5-9f5a-32fde2bf114f" variable="rcn">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <divide/>
+            <ci> Vcap </ci>
+            <ci> Vn </ci>
+          </apply>
+        </math>
+            </assignmentRule>
+      <assignmentRule metaid="_456431a9-75a8-4bde-a426-d0274757cc3c" variable="rcg">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <divide/>
+            <ci> Vcap </ci>
+            <ci> Vg </ci>
+          </apply>
+        </math>
+            </assignmentRule>
+      <assignmentRule metaid="_93c5772e-9e7d-434d-a554-f052f02d9239" variable="rce">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <divide/>
+            <ci> Vcap </ci>
+            <ci> Ve </ci>
+          </apply>
+        </math>
+            </assignmentRule>
+      <assignmentRule metaid="ca44eb41-13f9-4bb0-aa03-9894fd05d46e" variable="reg">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <divide/>
+            <ci> Ve </ci>
+            <ci> Vg </ci>
+          </apply>
+        </math>
+            </assignmentRule>
+      <assignmentRule metaid="ff58f4c7-f553-4e77-a9ac-629939aaa724" variable="ren">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <divide/>
+            <ci> Ve </ci>
+            <ci> Vn </ci>
+          </apply>
+        </math>
+            </assignmentRule>
+      <assignmentRule metaid="_8ce65130-06fb-4353-b97a-e57512927cff" variable="un">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <plus/>
+            <apply>
+              <power/>
+              <ci> qAK </ci>
+              <cn> 2 </cn>
+            </apply>
+            <apply>
+              <times/>
+              <cn> 4 </cn>
+              <ci> qAK </ci>
+              <apply>
+                <minus/>
+                <apply>
+                  <divide/>
+                  <ci> A </ci>
+                  <ci> ATPn </ci>
+                </apply>
+                <cn> 1 </cn>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+            </assignmentRule>
+      <assignmentRule metaid="d73e01e1-fe79-4ae0-82f1-94b6e40d2530" variable="ug">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <plus/>
+            <apply>
+              <power/>
+              <ci> qAK </ci>
+              <cn> 2 </cn>
+            </apply>
+            <apply>
+              <times/>
+              <cn> 4 </cn>
+              <ci> qAK </ci>
+              <apply>
+                <minus/>
+                <apply>
+                  <divide/>
+                  <ci> A </ci>
+                  <ci> ATPg </ci>
+                </apply>
+                <cn> 1 </cn>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+            </assignmentRule>
+      <assignmentRule metaid="df222340-9ddb-4edb-88bf-b636a5841514" variable="BOLD">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <times/>
+            <ci> Vv0 </ci>
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <apply>
+                  <plus/>
+                  <ci> k1 </ci>
+                  <ci> k2 </ci>
+                </apply>
+                <apply>
+                  <minus/>
+                  <cn> 1 </cn>
+                  <apply>
+                    <divide/>
+                    <ci> dHb </ci>
+                    <ci> dHb0 </ci>
+                  </apply>
+                </apply>
+              </apply>
+              <apply>
+                <times/>
+                <apply>
+                  <plus/>
+                  <ci> k2 </ci>
+                  <ci> k3 </ci>
+                </apply>
+                <apply>
+                  <minus/>
+                  <cn> 1 </cn>
+                  <apply>
+                    <divide/>
+                    <ci> Vv </ci>
+                    <ci> Vv0 </ci>
+                  </apply>
+                </apply>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+            </assignmentRule>
+      <assignmentRule metaid="fb0a66d5-0eba-4b9b-a43f-e92f9fcae3ac" variable="VnLeak_Na">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <times/>
+            <ci> Sm_Vn </ci>
+            <apply>
+              <divide/>
+              <ci> gnNa </ci>
+              <ci> F </ci>
+            </apply>
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> RT_F </ci>
+                <apply>
+                  <ln/>
+                  <apply>
+                    <divide/>
+                    <ci> Nae </ci>
+                    <ci> Nan </ci>
+                  </apply>
+                </apply>
+              </apply>
+              <ci> Vm </ci>
+            </apply>
+          </apply>
+        </math>
+            </assignmentRule>
+      <assignmentRule metaid="_30b2b19d-8244-4665-8a24-f17a2e296227" variable="VgLeak_Na">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <times/>
+            <ci> Sm_Vg </ci>
+            <apply>
+              <divide/>
+              <ci> ggNa </ci>
+              <ci> F </ci>
+            </apply>
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> RT_F </ci>
+                <apply>
+                  <ln/>
+                  <apply>
+                    <divide/>
+                    <ci> Nae </ci>
+                    <ci> Nag </ci>
+                  </apply>
+                </apply>
+              </apply>
+              <ci> Vm </ci>
+            </apply>
+          </apply>
+        </math>
+            </assignmentRule>
+      <assignmentRule metaid="_5bfdc430-d67e-4cba-b586-cb8fcb63d2c6" variable="VnPump">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <times/>
+            <ci> Sm_Vn </ci>
+            <ci> kPump </ci>
+            <ci> ATPn </ci>
+            <ci> Nan </ci>
+            <apply>
+              <power/>
+              <apply>
+                <plus/>
+                <cn> 1 </cn>
+                <apply>
+                  <divide/>
+                  <ci> ATPn </ci>
+                  <ci> km_Pump </ci>
+                </apply>
+              </apply>
+              <apply>
+                <minus/>
+                <cn> 1 </cn>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+            </assignmentRule>
+      <assignmentRule metaid="_8894ef04-6e8e-44dd-9a3a-06ef05155a3e" variable="VgPump">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <times/>
+            <ci> Sm_Vg </ci>
+            <ci> kPump </ci>
+            <ci> ATPg </ci>
+            <ci> Nag </ci>
+            <apply>
+              <power/>
+              <apply>
+                <plus/>
+                <cn> 1 </cn>
+                <apply>
+                  <divide/>
+                  <ci> ATPg </ci>
+                  <ci> km_Pump </ci>
+                </apply>
+              </apply>
+              <apply>
+                <minus/>
+                <cn> 1 </cn>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+            </assignmentRule>
+      <assignmentRule metaid="_142921d0-b12c-4626-ad86-83e445c331db" variable="VnStim_t">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <piecewise>
+            <piece>
+              <apply>
+                <plus/>
+                <ci> vn1 </ci>
+                <apply>
+                  <times/>
+                  <ci> vn2 </ci>
+                  <apply>
+                    <divide/>
+                    <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
+                    <ci> taunStim </ci>
+                  </apply>
+                  <apply>
+                    <exp/>
+                    <apply>
+                      <divide/>
+                      <apply>
+                        <minus/>
+                        <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
+                      </apply>
+                      <ci> taunStim </ci>
+                    </apply>
+                  </apply>
+                </apply>
+              </apply>
+              <apply>
+                <and/>
+                <apply>
+                  <geq/>
+                  <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
+                  <cn> 0 </cn>
+                </apply>
+                <apply>
+                  <leq/>
+                  <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
+                  <ci> tend </ci>
+                </apply>
+              </apply>
+            </piece>
+            <otherwise>
+              <cn> 0 </cn>
+            </otherwise>
+          </piecewise>
+        </math>
+            </assignmentRule>
+      <assignmentRule metaid="_08c3355b-d9bb-479d-8048-6c0755a98885" variable="VgStim_t">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <piecewise>
+            <piece>
+              <apply>
+                <plus/>
+                <ci> vg1 </ci>
+                <apply>
+                  <times/>
+                  <ci> vg2 </ci>
+                  <apply>
+                    <divide/>
+                    <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
+                    <ci> taugStim </ci>
+                  </apply>
+                  <apply>
+                    <exp/>
+                    <apply>
+                      <divide/>
+                      <apply>
+                        <minus/>
+                        <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
+                      </apply>
+                      <ci> taugStim </ci>
+                    </apply>
+                  </apply>
+                </apply>
+              </apply>
+              <apply>
+                <and/>
+                <apply>
+                  <geq/>
+                  <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
+                  <cn> 0 </cn>
+                </apply>
+                <apply>
+                  <leq/>
+                  <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
+                  <ci> tend </ci>
+                </apply>
+              </apply>
+            </piece>
+            <otherwise>
+              <cn> 0 </cn>
+            </otherwise>
+          </piecewise>
+        </math>
+            </assignmentRule>
+      <assignmentRule metaid="_77f372b6-f9d7-424d-a12a-bd94ba153114" variable="VenGLC">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <times/>
+            <ci> Tenmax_GLC </ci>
+            <apply>
+              <minus/>
+              <apply>
+                <divide/>
+                <ci> GLCe </ci>
+                <apply>
+                  <plus/>
+                  <ci> GLCe </ci>
+                  <ci> Kent_GLC </ci>
+                </apply>
+              </apply>
+              <apply>
+                <divide/>
+                <ci> GLCn </ci>
+                <apply>
+                  <plus/>
+                  <ci> GLCn </ci>
+                  <ci> Kent_GLC </ci>
+                </apply>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+            </assignmentRule>
+      <assignmentRule metaid="_5238ee47-3955-485f-b06d-f6bdb9164893" variable="VegGLC">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <times/>
+            <ci> Tegmax_GLC </ci>
+            <apply>
+              <minus/>
+              <apply>
+                <divide/>
+                <ci> GLCe </ci>
+                <apply>
+                  <plus/>
+                  <ci> GLCe </ci>
+                  <ci> Kegt_GLC </ci>
+                </apply>
+              </apply>
+              <apply>
+                <divide/>
+                <ci> GLCg </ci>
+                <apply>
+                  <plus/>
+                  <ci> GLCg </ci>
+                  <ci> Kegt_GLC </ci>
+                </apply>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+            </assignmentRule>
+      <assignmentRule metaid="_9be4653a-f7f5-45c6-8131-3a3aa260e431" variable="VcgGLC">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <times/>
+            <ci> Tcgmax_GLC </ci>
+            <apply>
+              <minus/>
+              <apply>
+                <divide/>
+                <ci> GLCc </ci>
+                <apply>
+                  <plus/>
+                  <ci> GLCc </ci>
+                  <ci> Kcgt_GLC </ci>
+                </apply>
+              </apply>
+              <apply>
+                <divide/>
+                <ci> GLCg </ci>
+                <apply>
+                  <plus/>
+                  <ci> GLCg </ci>
+                  <ci> Kcgt_GLC </ci>
+                </apply>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+            </assignmentRule>
+      <assignmentRule metaid="aea121cd-c4e7-4e3f-8383-f1b4c6e3d2a6" variable="VceGLC">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <times/>
+            <ci> Tcemax_GLC </ci>
+            <apply>
+              <minus/>
+              <apply>
+                <divide/>
+                <ci> GLCc </ci>
+                <apply>
+                  <plus/>
+                  <ci> GLCc </ci>
+                  <ci> Kcet_GLC </ci>
+                </apply>
+              </apply>
+              <apply>
+                <divide/>
+                <ci> GLCe </ci>
+                <apply>
+                  <plus/>
+                  <ci> GLCe </ci>
+                  <ci> Kcet_GLC </ci>
+                </apply>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+            </assignmentRule>
+      <assignmentRule metaid="a88cfce3-5e7b-4f34-85df-16bdc3e29349" variable="VnHK_PFK">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <times/>
+            <ci> knHK_PFK </ci>
+            <ci> ATPn </ci>
+            <apply>
+              <power/>
+              <apply>
+                <plus/>
+                <cn> 1 </cn>
+                <apply>
+                  <power/>
+                  <apply>
+                    <divide/>
+                    <ci> ATPn </ci>
+                    <ci> kI_ATP </ci>
+                  </apply>
+                  <ci> nH </ci>
+                </apply>
+              </apply>
+              <apply>
+                <minus/>
+                <cn> 1 </cn>
+              </apply>
+            </apply>
+            <apply>
+              <divide/>
+              <ci> GLCn </ci>
+              <apply>
+                <plus/>
+                <ci> GLCn </ci>
+                <ci> Kg </ci>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+            </assignmentRule>
+      <assignmentRule metaid="_0de4f775-2555-4663-b68e-dd33d62f6e49" variable="VgHK_PFK">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <times/>
+            <ci> kgHK_PFK </ci>
+            <ci> ATPg </ci>
+            <apply>
+              <power/>
+              <apply>
+                <plus/>
+                <cn> 1 </cn>
+                <apply>
+                  <power/>
+                  <apply>
+                    <divide/>
+                    <ci> ATPg </ci>
+                    <ci> kI_ATP </ci>
+                  </apply>
+                  <ci> nH </ci>
+                </apply>
+              </apply>
+              <apply>
+                <minus/>
+                <cn> 1 </cn>
+              </apply>
+            </apply>
+            <apply>
+              <divide/>
+              <ci> GLCg </ci>
+              <apply>
+                <plus/>
+                <ci> GLCg </ci>
+                <ci> Kg </ci>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+            </assignmentRule>
+      <assignmentRule metaid="_1fc41bf4-aaab-438d-9761-021c6921bae1" variable="VnPGK">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <times/>
+            <ci> k_nPGK </ci>
+            <ci> GAPn </ci>
+            <ci> ADPn </ci>
+            <apply>
+              <divide/>
+              <apply>
+                <minus/>
+                <ci> N </ci>
+                <ci> NADHn </ci>
+              </apply>
+              <ci> NADHn </ci>
+            </apply>
+          </apply>
+        </math>
+            </assignmentRule>
+      <assignmentRule metaid="_422e473a-8ed8-44b4-b377-7575704f760e" variable="VgPGK">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <times/>
+            <ci> k_gPGK </ci>
+            <ci> GAPg </ci>
+            <ci> ADPg </ci>
+            <apply>
+              <divide/>
+              <apply>
+                <minus/>
+                <ci> N </ci>
+                <ci> NADHg </ci>
+              </apply>
+              <ci> NADHg </ci>
+            </apply>
+          </apply>
+        </math>
+            </assignmentRule>
+      <assignmentRule metaid="f9be7186-8b1b-416b-aaab-adb0003c6437" variable="VnPK">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <times/>
+            <ci> knPK </ci>
+            <ci> PEPn </ci>
+            <ci> ADPn </ci>
+          </apply>
+        </math>
+            </assignmentRule>
+      <assignmentRule metaid="fab84b00-593a-4bcf-bec9-aa6f0b4f910b" variable="VgPK">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <times/>
+            <ci> kgPK </ci>
+            <ci> PEPg </ci>
+            <ci> ADPg </ci>
+          </apply>
+        </math>
+            </assignmentRule>
+      <assignmentRule metaid="b22492bd-3686-47e8-bb17-d64528847a12" variable="VnLDH">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <minus/>
+            <apply>
+              <times/>
+              <ci> kn_LDH </ci>
+              <ci> PYRn </ci>
+              <ci> NADHn </ci>
+            </apply>
+            <apply>
+              <times/>
+              <ci> kn_LDH_0 </ci>
+              <ci> LACn </ci>
+              <apply>
+                <minus/>
+                <ci> N </ci>
+                <ci> NADHn </ci>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+            </assignmentRule>
+      <assignmentRule metaid="_96ef6bc3-adfa-4d12-9d2b-16ed9a6c0ba0" variable="VgLDH">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <minus/>
+            <apply>
+              <times/>
+              <ci> kg_LDH </ci>
+              <ci> PYRg </ci>
+              <ci> NADHg </ci>
+            </apply>
+            <apply>
+              <times/>
+              <ci> kg_LDH_0 </ci>
+              <ci> LACg </ci>
+              <apply>
+                <minus/>
+                <ci> N </ci>
+                <ci> NADHg </ci>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+            </assignmentRule>
+      <assignmentRule metaid="_88330bed-090c-4190-bed2-bccd8acf28b0" variable="VneLAC">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <times/>
+            <ci> Tnemax_LAC </ci>
+            <apply>
+              <minus/>
+              <apply>
+                <divide/>
+                <ci> LACn </ci>
+                <apply>
+                  <plus/>
+                  <ci> LACn </ci>
+                  <ci> Knet_LAC </ci>
+                </apply>
+              </apply>
+              <apply>
+                <divide/>
+                <ci> LACe </ci>
+                <apply>
+                  <plus/>
+                  <ci> LACe </ci>
+                  <ci> Knet_LAC </ci>
+                </apply>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+            </assignmentRule>
+      <assignmentRule metaid="_5a685dc7-4812-45d7-ba28-8623b751befc" variable="VgeLAC">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <times/>
+            <ci> Tgemax_LAC </ci>
+            <apply>
+              <minus/>
+              <apply>
+                <divide/>
+                <ci> LACg </ci>
+                <apply>
+                  <plus/>
+                  <ci> LACg </ci>
+                  <ci> Kget_LAC </ci>
+                </apply>
+              </apply>
+              <apply>
+                <divide/>
+                <ci> LACe </ci>
+                <apply>
+                  <plus/>
+                  <ci> LACe </ci>
+                  <ci> Kget_LAC </ci>
+                </apply>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+            </assignmentRule>
+      <assignmentRule metaid="_594306f0-399b-47b2-97c1-1ad98e2c4cd8" variable="VgcLAC">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <times/>
+            <ci> Tgcmax_LAC </ci>
+            <apply>
+              <minus/>
+              <apply>
+                <divide/>
+                <ci> LACg </ci>
+                <apply>
+                  <plus/>
+                  <ci> LACg </ci>
+                  <ci> Kgct_LAC </ci>
+                </apply>
+              </apply>
+              <apply>
+                <divide/>
+                <ci> LACc </ci>
+                <apply>
+                  <plus/>
+                  <ci> LACc </ci>
+                  <ci> Kgct_LAC </ci>
+                </apply>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+            </assignmentRule>
+      <assignmentRule metaid="f5944e84-6b52-463a-a1d7-85d0cc4f3c8c" variable="VecLAC">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <times/>
+            <ci> Tecmax_LAC </ci>
+            <apply>
+              <minus/>
+              <apply>
+                <divide/>
+                <ci> LACe </ci>
+                <apply>
+                  <plus/>
+                  <ci> LACe </ci>
+                  <ci> Kect_LAC </ci>
+                </apply>
+              </apply>
+              <apply>
+                <divide/>
+                <ci> LACc </ci>
+                <apply>
+                  <plus/>
+                  <ci> LACc </ci>
+                  <ci> Kect_LAC </ci>
+                </apply>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+            </assignmentRule>
+      <assignmentRule metaid="_84cb1528-4ff7-4113-91ed-1cc9bb4b02c3" variable="VnMito">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <times/>
+            <ci> Vnmax_Mito </ci>
+            <apply>
+              <divide/>
+              <ci> PYRn </ci>
+              <apply>
+                <plus/>
+                <ci> Km_Mito </ci>
+                <ci> PYRn </ci>
+              </apply>
+            </apply>
+            <apply>
+              <divide/>
+              <ci> O2n </ci>
+              <apply>
+                <plus/>
+                <ci> KO2__A_34 </ci>
+                <ci> O2n </ci>
+              </apply>
+            </apply>
+            <apply>
+              <divide/>
+              <ci> ADPn </ci>
+              <apply>
+                <plus/>
+                <ci> KnmADP </ci>
+                <ci> ADPn </ci>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+            </assignmentRule>
+      <assignmentRule metaid="_525d0b8d-c826-4e30-9428-1bd87e308b21" variable="VgMito">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <times/>
+            <ci> Vgmax_Mito </ci>
+            <apply>
+              <divide/>
+              <ci> PYRg </ci>
+              <apply>
+                <plus/>
+                <ci> Km_Mito </ci>
+                <ci> PYRg </ci>
+              </apply>
+            </apply>
+            <apply>
+              <divide/>
+              <ci> O2g </ci>
+              <apply>
+                <plus/>
+                <ci> KO2__A_34 </ci>
+                <ci> O2g </ci>
+              </apply>
+            </apply>
+            <apply>
+              <divide/>
+              <ci> ADPg </ci>
+              <apply>
+                <plus/>
+                <ci> KgmADP </ci>
+                <ci> ADPg </ci>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+            </assignmentRule>
+      <assignmentRule metaid="_93712e29-1cd3-4c79-bd08-5da3cc342474" variable="VnCK">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <minus/>
+            <apply>
+              <times/>
+              <ci> kn_CK </ci>
+              <ci> PCrn </ci>
+              <ci> ADPn </ci>
+            </apply>
+            <apply>
+              <times/>
+              <ci> kn_CK_0 </ci>
+              <apply>
+                <minus/>
+                <ci> C </ci>
+                <ci> PCrn </ci>
+              </apply>
+              <ci> ATPn </ci>
+            </apply>
+          </apply>
+        </math>
+            </assignmentRule>
+      <assignmentRule metaid="_750d0355-8899-4156-b549-0dcc84c2e11c" variable="VgCK">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <minus/>
+            <apply>
+              <times/>
+              <ci> kg_CK </ci>
+              <ci> PCrg </ci>
+              <ci> ADPg </ci>
+            </apply>
+            <apply>
+              <times/>
+              <ci> kg_CK_0 </ci>
+              <apply>
+                <minus/>
+                <ci> C </ci>
+                <ci> PCrg </ci>
+              </apply>
+              <ci> ATPg </ci>
+            </apply>
+          </apply>
+        </math>
+            </assignmentRule>
+      <assignmentRule metaid="aa81afaf-ca66-463c-80fe-a65aaf636b87" variable="VcnO2m">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <times/>
+            <ci> PScap_Vn </ci>
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> KO2__A_37 </ci>
+                <apply>
+                  <power/>
+                  <apply>
+                    <minus/>
+                    <apply>
+                      <divide/>
+                      <ci> Hb_OP </ci>
+                      <ci> O2c </ci>
+                    </apply>
+                    <cn> 1 </cn>
+                  </apply>
+                  <apply>
+                    <divide/>
+                    <apply>
+                      <minus/>
+                      <cn> 1 </cn>
+                    </apply>
+                    <ci> nh </ci>
+                  </apply>
+                </apply>
+              </apply>
+              <ci> O2n </ci>
+            </apply>
+          </apply>
+        </math>
+            </assignmentRule>
+      <assignmentRule metaid="_1783fec4-8e29-4133-b59d-607f78805551" variable="VcgO2m">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <times/>
+            <ci> PScap_Vg </ci>
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> KO2__A_37 </ci>
+                <apply>
+                  <power/>
+                  <apply>
+                    <minus/>
+                    <apply>
+                      <divide/>
+                      <ci> Hb_OP </ci>
+                      <ci> O2c </ci>
+                    </apply>
+                    <cn> 1 </cn>
+                  </apply>
+                  <apply>
+                    <divide/>
+                    <apply>
+                      <minus/>
+                      <cn> 1 </cn>
+                    </apply>
+                    <ci> nh </ci>
+                  </apply>
+                </apply>
+              </apply>
+              <ci> O2g </ci>
+            </apply>
+          </apply>
+        </math>
+            </assignmentRule>
+      <assignmentRule metaid="_81ca0f3a-a611-4cf7-a87e-fe7c87396325" variable="Fin_t">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <piecewise>
+            <piece>
+              <apply>
+                <times/>
+                <apply>
+                  <plus/>
+                  <cn> 1 </cn>
+                  <ci> alphaF </ci>
+                </apply>
+                <ci> F0 </ci>
+              </apply>
+              <apply>
+                <and/>
+                <apply>
+                  <geq/>
+                  <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
+                  <ci> t1 </ci>
+                </apply>
+                <apply>
+                  <leq/>
+                  <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
+                  <ci> tend </ci>
+                </apply>
+              </apply>
+            </piece>
+            <otherwise>
+              <piecewise>
+                <piece>
+                  <ci> F0 </ci>
+                  <apply>
+                    <and/>
+                    <apply>
+                      <eq/>
+                      <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
+                      <cn> 0 </cn>
+                    </apply>
+                    <apply>
+                      <geq/>
+                      <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
+                      <apply>
+                        <plus/>
+                        <ci> tend </ci>
+                        <ci> t1 </ci>
+                      </apply>
+                    </apply>
+                  </apply>
+                </piece>
+                <otherwise>
+                  <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
+                </otherwise>
+              </piecewise>
+            </otherwise>
+          </piecewise>
+        </math>
+            </assignmentRule>
+      <assignmentRule metaid="_2fad582b-7e87-4c1f-8ed4-0b1f41d06f34" variable="VcO2">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <times/>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <cn> 2 </cn>
+                <ci> Fin_t </ci>
+              </apply>
+              <ci> Vcap </ci>
+            </apply>
+            <apply>
+              <minus/>
+              <ci> O2a </ci>
+              <ci> O2c </ci>
+            </apply>
+          </apply>
+        </math>
+            </assignmentRule>
+      <assignmentRule metaid="dd793bbc-6c27-450f-8c3d-db9fd1eb9153" variable="VcGLC">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <times/>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <cn> 2 </cn>
+                <ci> Fin_t </ci>
+              </apply>
+              <ci> Vcap </ci>
+            </apply>
+            <apply>
+              <minus/>
+              <ci> GLCa </ci>
+              <ci> GLCc </ci>
+            </apply>
+          </apply>
+        </math>
+            </assignmentRule>
+      <assignmentRule metaid="c61e7f8c-803b-413b-bd58-78c08a039664" variable="VcLAC">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <times/>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <cn> 2 </cn>
+                <ci> Fin_t </ci>
+              </apply>
+              <ci> Vcap </ci>
+            </apply>
+            <apply>
+              <minus/>
+              <ci> LACa </ci>
+              <ci> LACc </ci>
+            </apply>
+          </apply>
+        </math>
+            </assignmentRule>
+      <assignmentRule metaid="_29211146-264f-404a-9a84-880485887a9a" variable="Fout_t">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <times/>
+            <ci> F0 </ci>
+            <apply>
+              <plus/>
+              <apply>
+                <power/>
+                <apply>
+                  <divide/>
+                  <ci> Vv </ci>
+                  <ci> Vv0 </ci>
+                </apply>
+                <apply>
+                  <divide/>
+                  <cn> 1 </cn>
+                  <ci> alpha </ci>
+                </apply>
+              </apply>
+              <apply>
+                <times/>
+                <ci> tauv </ci>
+                <apply>
+                  <power/>
+                  <apply>
+                    <divide/>
+                    <ci> Vv </ci>
+                    <ci> Vv0 </ci>
+                  </apply>
+                  <apply>
+                    <minus/>
+                    <cn> 0.5 </cn>
+                  </apply>
+                </apply>
+                <apply>
+                  <divide/>
+                  <cn> 1 </cn>
+                  <ci> Vv0 </ci>
+                </apply>
+                <ci> Vv </ci>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+            </assignmentRule>
+      <assignmentRule metaid="_9763874a-93ab-4e58-a945-680afc1a8073" variable="O2C">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <minus/>
+            <apply>
+              <times/>
+              <cn> 2 </cn>
+              <ci> O2c </ci>
+            </apply>
+            <ci> O2a </ci>
+          </apply>
+        </math>
+            </assignmentRule>
+      <assignmentRule metaid="d01b2af0-8411-42a5-97a7-fec28928e993" variable="dAMP_dATPg">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <minus/>
+            <apply>
+              <plus/>
+              <apply>
+                <divide/>
+                <ci> qAK </ci>
+                <cn> 2 </cn>
+              </apply>
+              <apply>
+                <times/>
+                <ci> qAK </ci>
+                <apply>
+                  <divide/>
+                  <ci> A </ci>
+                  <apply>
+                    <times/>
+                    <ci> ATPg </ci>
+                    <apply>
+                      <power/>
+                      <ci> ug </ci>
+                      <apply>
+                        <divide/>
+                        <cn> 1 </cn>
+                        <cn> 2 </cn>
+                      </apply>
+                    </apply>
+                  </apply>
+                </apply>
+              </apply>
+            </apply>
+            <apply>
+              <plus/>
+              <cn> 1 </cn>
+              <apply>
+                <times/>
+                <cn> 0.5 </cn>
+                <apply>
+                  <power/>
+                  <ci> ug </ci>
+                  <apply>
+                    <divide/>
+                    <cn> 1 </cn>
+                    <cn> 2 </cn>
+                  </apply>
+                </apply>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+            </assignmentRule>
+      <assignmentRule metaid="_488c4b50-276a-4e26-ad7f-c55719c361e4" variable="dAMP_dATPn">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <minus/>
+            <apply>
+              <plus/>
+              <apply>
+                <divide/>
+                <ci> qAK </ci>
+                <cn> 2 </cn>
+              </apply>
+              <apply>
+                <times/>
+                <ci> qAK </ci>
+                <apply>
+                  <divide/>
+                  <ci> A </ci>
+                  <apply>
+                    <times/>
+                    <ci> ATPn </ci>
+                    <apply>
+                      <power/>
+                      <ci> un </ci>
+                      <apply>
+                        <divide/>
+                        <cn> 1 </cn>
+                        <cn> 2 </cn>
+                      </apply>
+                    </apply>
+                  </apply>
+                </apply>
+              </apply>
+            </apply>
+            <apply>
+              <plus/>
+              <cn> 1 </cn>
+              <apply>
+                <times/>
+                <cn> 0.5 </cn>
+                <apply>
+                  <power/>
+                  <ci> un </ci>
+                  <apply>
+                    <divide/>
+                    <cn> 1 </cn>
+                    <cn> 2 </cn>
+                  </apply>
+                </apply>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+            </assignmentRule>
+      <rateRule metaid="f5701f19-3f3b-4ed7-a116-910ba91f3b17" variable="ATPn">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <times/>
+            <apply>
+              <plus/>
+              <apply>
+                <minus/>
+                <apply>
+                  <minus/>
+                  <apply>
+                    <plus/>
+                    <apply>
+                      <times/>
+                      <apply>
+                        <minus/>
+                        <cn> 2 </cn>
+                      </apply>
+                      <ci> VnHK_PFK </ci>
+                    </apply>
+                    <ci> VnPGK </ci>
+                    <ci> VnPK </ci>
+                  </apply>
+                  <ci> VnATPases </ci>
+                </apply>
+                <ci> VnPump </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> nop </ci>
+                <ci> VnMito </ci>
+              </apply>
+              <ci> VnCK </ci>
+            </apply>
+            <apply>
+              <power/>
+              <apply>
+                <minus/>
+                <cn> 1 </cn>
+                <ci> dAMP_dATPn </ci>
+              </apply>
+              <apply>
+                <minus/>
+                <cn> 1 </cn>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+            </rateRule>
+      <rateRule metaid="a0e3fe58-02ae-4ba6-8c36-2b15727702ad" variable="Nan">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <plus/>
+            <apply>
+              <minus/>
+              <ci> VnLeak_Na </ci>
+              <apply>
+                <times/>
+                <cn> 3 </cn>
+                <ci> VnPump </ci>
+              </apply>
+            </apply>
+            <ci> VnStim_t </ci>
+          </apply>
+        </math>
+            </rateRule>
+      <rateRule metaid="feb6d6fb-e42b-4709-850e-f7aed8ab8254" variable="GLCn">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <minus/>
+            <ci> VenGLC </ci>
+            <ci> VnHK_PFK </ci>
+          </apply>
+        </math>
+            </rateRule>
+      <rateRule metaid="bc4e5675-a8e8-4f84-aa6d-bb5a03313fc0" variable="GAPn">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <minus/>
+            <apply>
+              <times/>
+              <cn> 2 </cn>
+              <ci> VnHK_PFK </ci>
+            </apply>
+            <ci> VnPGK </ci>
+          </apply>
+        </math>
+            </rateRule>
+      <rateRule metaid="b0be2677-42b9-4795-8022-59a88409474f" variable="PEPn">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <minus/>
+            <ci> VnPGK </ci>
+            <ci> VnPK </ci>
+          </apply>
+        </math>
+            </rateRule>
+      <rateRule metaid="f584ba94-723d-46c2-9645-be1375d418d6" variable="PYRn">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <minus/>
+            <apply>
+              <minus/>
+              <ci> VnPK </ci>
+              <ci> VnLDH </ci>
+            </apply>
+            <ci> VnMito </ci>
+          </apply>
+        </math>
+            </rateRule>
+      <rateRule metaid="_32ad5361-8a80-47a3-b2db-a81cfbc08e55" variable="LACn">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <minus/>
+            <ci> VnLDH </ci>
+            <ci> VneLAC </ci>
+          </apply>
+        </math>
+            </rateRule>
+      <rateRule metaid="_24f1064e-230d-4950-9a23-3717ab498a8f" variable="NADHn">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <minus/>
+            <apply>
+              <minus/>
+              <ci> VnPGK </ci>
+              <ci> VnLDH </ci>
+            </apply>
+            <ci> VnMito </ci>
+          </apply>
+        </math>
+            </rateRule>
+      <rateRule metaid="_7be3bb7a-2796-4d84-9709-330b77b47de5" variable="PCrn">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <minus/>
+            <ci> VnCK </ci>
+          </apply>
+        </math>
+            </rateRule>
+      <rateRule metaid="ebdc0206-f07b-4e42-9ce8-8b6624d34b28" variable="O2n">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <minus/>
+            <ci> VcnO2m </ci>
+            <apply>
+              <times/>
+              <ci> naero </ci>
+              <ci> VnMito </ci>
+            </apply>
+          </apply>
+        </math>
+            </rateRule>
+      <rateRule metaid="cd5fdee7-4a51-4aa3-a5ab-4a42d9934e3a" variable="ATPg">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <times/>
+            <apply>
+              <plus/>
+              <apply>
+                <minus/>
+                <apply>
+                  <minus/>
+                  <apply>
+                    <plus/>
+                    <apply>
+                      <times/>
+                      <apply>
+                        <minus/>
+                        <cn> 2 </cn>
+                      </apply>
+                      <ci> VgHK_PFK </ci>
+                    </apply>
+                    <ci> VgPGK </ci>
+                    <ci> VgPK </ci>
+                  </apply>
+                  <ci> VgATPases </ci>
+                </apply>
+                <ci> VgPump </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> nop </ci>
+                <ci> VgMito </ci>
+              </apply>
+              <ci> VgCK </ci>
+            </apply>
+            <apply>
+              <power/>
+              <apply>
+                <minus/>
+                <cn> 1 </cn>
+                <ci> dAMP_dATPg </ci>
+              </apply>
+              <apply>
+                <minus/>
+                <cn> 1 </cn>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+            </rateRule>
+      <rateRule metaid="bef1f318-fad5-4eca-97ee-f8d5de4d2395" variable="Nag">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <plus/>
+            <apply>
+              <minus/>
+              <ci> VgLeak_Na </ci>
+              <apply>
+                <times/>
+                <cn> 3 </cn>
+                <ci> VgPump </ci>
+              </apply>
+            </apply>
+            <ci> VgStim_t </ci>
+          </apply>
+        </math>
+            </rateRule>
+      <rateRule metaid="_7dc94521-ab48-47d2-b3bb-15e11b572e19" variable="GLCg">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <minus/>
+            <apply>
+              <plus/>
+              <ci> VcgGLC </ci>
+              <ci> VegGLC </ci>
+            </apply>
+            <ci> VgHK_PFK </ci>
+          </apply>
+        </math>
+            </rateRule>
+      <rateRule metaid="_56e7e5d4-4336-47b1-966b-b465050270f1" variable="GAPg">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <minus/>
+            <apply>
+              <times/>
+              <cn> 2 </cn>
+              <ci> VgHK_PFK </ci>
+            </apply>
+            <ci> VgPGK </ci>
+          </apply>
+        </math>
+            </rateRule>
+      <rateRule metaid="_5274181f-9b5d-4040-863f-c1dc4578edf4" variable="PEPg">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <minus/>
+            <ci> VgPGK </ci>
+            <ci> VgPK </ci>
+          </apply>
+        </math>
+            </rateRule>
+      <rateRule metaid="cdea6c41-95f2-4621-a7f5-8200d23bc3e7" variable="PYRg">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <minus/>
+            <apply>
+              <minus/>
+              <ci> VgPK </ci>
+              <ci> VgLDH </ci>
+            </apply>
+            <ci> VgMito </ci>
+          </apply>
+        </math>
+            </rateRule>
+      <rateRule metaid="_91043de0-5fd6-4686-8301-f40ca8c75a8a" variable="LACg">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <minus/>
+            <apply>
+              <minus/>
+              <ci> VgLDH </ci>
+              <ci> VgeLAC </ci>
+            </apply>
+            <ci> VgcLAC </ci>
+          </apply>
+        </math>
+            </rateRule>
+      <rateRule metaid="f22097da-d313-4035-b439-dd1d3cb1276f" variable="NADHg">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <minus/>
+            <apply>
+              <minus/>
+              <ci> VgPGK </ci>
+              <ci> VgLDH </ci>
+            </apply>
+            <ci> VgMito </ci>
+          </apply>
+        </math>
+            </rateRule>
+      <rateRule metaid="_6d5c909d-69da-418d-89cc-d71ab7cedb70" variable="PCrg">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <minus/>
+            <ci> VgCK </ci>
+          </apply>
+        </math>
+            </rateRule>
+      <rateRule metaid="_04106dfb-b203-4760-aab0-94a9cd1493c7" variable="O2g">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <minus/>
+            <ci> VcgO2m </ci>
+            <apply>
+              <times/>
+              <ci> naero </ci>
+              <ci> VgMito </ci>
+            </apply>
+          </apply>
+        </math>
+            </rateRule>
+      <rateRule metaid="c546626a-b9b4-4567-a56c-88449f7b8eaa" variable="GLCe">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <minus/>
+            <apply>
+              <minus/>
+              <ci> VceGLC </ci>
+              <apply>
+                <times/>
+                <apply>
+                  <divide/>
+                  <cn> 1 </cn>
+                  <ci> reg </ci>
+                </apply>
+                <ci> VegGLC </ci>
+              </apply>
+            </apply>
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <cn> 1 </cn>
+                <ci> ren </ci>
+              </apply>
+              <ci> VenGLC </ci>
+            </apply>
+          </apply>
+        </math>
+            </rateRule>
+      <rateRule metaid="_6223c558-57d1-463a-b04a-5ae540727f2a" variable="LACe">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <minus/>
+            <apply>
+              <plus/>
+              <apply>
+                <times/>
+                <apply>
+                  <divide/>
+                  <cn> 1 </cn>
+                  <ci> ren </ci>
+                </apply>
+                <ci> VneLAC </ci>
+              </apply>
+              <apply>
+                <times/>
+                <apply>
+                  <divide/>
+                  <cn> 1 </cn>
+                  <ci> reg </ci>
+                </apply>
+                <ci> VgeLAC </ci>
+              </apply>
+            </apply>
+            <ci> VecLAC </ci>
+          </apply>
+        </math>
+            </rateRule>
+      <rateRule metaid="fc4e0baa-f887-4481-9ba8-3af18f273b83" variable="dHb">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <minus/>
+            <apply>
+              <times/>
+              <ci> Fin_t </ci>
+              <apply>
+                <minus/>
+                <ci> O2a </ci>
+                <ci> O2C </ci>
+              </apply>
+            </apply>
+            <apply>
+              <times/>
+              <ci> Fout_t </ci>
+              <apply>
+                <divide/>
+                <ci> dHb </ci>
+                <ci> Vv </ci>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+            </rateRule>
+      <rateRule metaid="_763aa9bd-b5ed-4ab5-88f4-8dd8c52a71d1" variable="O2c">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <minus/>
+            <apply>
+              <minus/>
+              <ci> VcO2 </ci>
+              <apply>
+                <times/>
+                <apply>
+                  <divide/>
+                  <cn> 1 </cn>
+                  <ci> rcn </ci>
+                </apply>
+                <ci> VcnO2m </ci>
+              </apply>
+            </apply>
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <cn> 1 </cn>
+                <ci> rcg </ci>
+              </apply>
+              <ci> VcgO2m </ci>
+            </apply>
+          </apply>
+        </math>
+            </rateRule>
+      <rateRule metaid="_34324fb6-6c4f-47ce-a7fc-2b467349b744" variable="GLCc">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <minus/>
+            <apply>
+              <minus/>
+              <ci> VcGLC </ci>
+              <apply>
+                <times/>
+                <apply>
+                  <divide/>
+                  <cn> 1 </cn>
+                  <ci> rce </ci>
+                </apply>
+                <ci> VceGLC </ci>
+              </apply>
+            </apply>
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <cn> 1 </cn>
+                <ci> rcg </ci>
+              </apply>
+              <ci> VcgGLC </ci>
+            </apply>
+          </apply>
+        </math>
+            </rateRule>
+      <rateRule metaid="dd223007-88a9-4395-a0cc-97be68e9f100" variable="LACc">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <plus/>
+            <ci> VcLAC </ci>
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <cn> 1 </cn>
+                <ci> rce </ci>
+              </apply>
+              <ci> VecLAC </ci>
+            </apply>
+            <apply>
+              <times/>
+              <apply>
+                <divide/>
+                <cn> 1 </cn>
+                <ci> rcg </ci>
+              </apply>
+              <ci> VgcLAC </ci>
+            </apply>
+          </apply>
+        </math>
+            </rateRule>
+      <rateRule metaid="b9019a18-5509-46a2-b10f-12502d8d3126" variable="Vv">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">        
+          <apply>
+            <minus/>
+            <ci> Fin_t </ci>
+            <ci> Fout_t </ci>
+          </apply>
+        </math>
+            </rateRule>
+    </listOfRules>
+  </model>
+</sbml>
