@@ -28,7 +28,7 @@ excitation by the influx of calcium.<br>
 • Extracellular glutamate is rapidly removed from the synaptic cleft (Exocytosis) by
 astrocytes through EAAT2 transporters.<br>
 => To be done<br>
-
+<br>
 • In a non-inflamed environment, the microglial cells remain in a state of rest or possibly "of
 vigilance", presumably releasing factors having a neurotrophic influence.<br>
 => Done<br>
