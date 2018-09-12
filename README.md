@@ -17,7 +17,7 @@ Mathematical modeling can be a tool to give a coherent and quantitative framewor
 (inspired by Barbeito and al. Journal of Neural Transmission · August 2010) 
 <br>
 • Immune cells of the central nervous system, including microglia and T cells, affect the
-survival of motor neurons. Based on Cloutier 2009 and  Aubert 2005.<br>
+survival of motor neurons. Based on Puri 2010, Cloutier 2009, Aubert 2005.<br>
 => Done<br>
 <br>
 • In a healthy human, a pre-synaptic neuron releases glutamate (Glu), which binds to
