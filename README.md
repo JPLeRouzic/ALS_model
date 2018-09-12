@@ -1,5 +1,5 @@
 <h2>ALS model</h2>
-(This is a work in progress)
+(This is a work in progress which is inspired mostly by Barbeito and al. in Journal of Neural Transmission · August 2010) 
 
 Amyotrophic Lateral Sclerosis (ALS) is a fatal neurodegenerative disease which is characterized by degeneration of motor neurons in the spinal cord, brain stem and motor cortex.
 Despite the important efforts to find new therapies to ALS, including targeting the immune system, no efficacious drug is available today. 
@@ -13,10 +13,11 @@ Of course, neither this model nor any other mathematical or biological model can
 
 Mathematical modeling can be a tool to give a coherent and quantitative framework for the discussion, to suggest possible physiological mechanisms and to help plan future experiments.
 
-<h2>Roadmap:</h2>
+<h2>Roadmap: </h2><br>
+(inspired by Barbeito and al. Journal of Neural Transmission · August 2010) 
 
 • Immune cells of the central nervous system, including microglia and T cells, affect the
-survival of motor neurons.<br>
+survival of motor neurons. Based on Cloutier 2009 and  Aubert 2005.<br>
 => Done<br>
 <br>
 • In a healthy human, a pre-synaptic neuron releases glutamate (Glu), which binds to
@@ -68,7 +69,9 @@ receptors (TLR2 / 4).<br>
 • The adaptive immune system is also part of the degenerative response of motor neurons. T
 cells (CD4+ and CD8+) from the periphery of the spinal cord enter in it during (or even
 initiating) the inflammatory process of ALS.<br>
-=> To be done (but some progress had been made)<br>
+=> To be done 
+(A model has been investigated: Mishra et al. Journal of Neuroinflammation (2017) 14:251)<br>
+(Another interesting model is: Mishra et al. Journal of Neuroinflammation (2016) 13:212)<br>
 <br>
 • CD4+ lymphocytes appear to have a neuroprotective effect by directly releasing
 inflammatory factors such as interleukins 4 and 10 (IL-4, IL-10) or by acting on microglial
@@ -93,7 +96,7 @@ degeneration of motor neurons, resulting in muscle atrophy of ALS.<br>
 <br>
 • The cell model includes the complete dopamine (DA) synthesis, metabolism, and transport
 introduced by Best et al.<br>
-=> To be done (merged in and removed because it created instability)<br>
+=> To be done (adapted from Büchel et al. and merged in and then removed because it created instability)<br>
 <br>
 • It models mitochondrial biogenesis and mitophagy, degradation processes of the lysosome
 and the proteasome, and reactions of the cell to reactive oxygen species (ROS).<br>
