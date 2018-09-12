@@ -1,6 +1,6 @@
 <h2>ALS model</h2>
 (This is a work in progress which is inspired mostly by Barbeito and al. in Journal of Neural Transmission · August 2010) 
-<br>
+<br><br>
 Amyotrophic Lateral Sclerosis (ALS) is a fatal neurodegenerative disease which is characterized by degeneration of motor neurons in the spinal cord, brain stem and motor cortex.
 Despite the important efforts to find new therapies to ALS, including targeting the immune system, no efficacious drug is available today. 
 This highlights the need to better understand the processes implicated.
