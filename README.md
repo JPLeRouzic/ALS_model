@@ -13,9 +13,10 @@ Of course, neither this model nor any other mathematical or biological model can
 
 Mathematical modeling can be a tool to give a coherent and quantitative framework for the discussion, to suggest possible physiological mechanisms and to help plan future experiments.
 
-#Roadmap:
+<b>Roadmap:</b>
+
 • Immune cells of the central nervous system, including microglia and T cells, affect the
-survival of motor neurons.
+survival of motor neurons.<br>
 => Done
 
 • In a healthy human, a pre-synaptic neuron releases glutamate (Glu), which binds to
