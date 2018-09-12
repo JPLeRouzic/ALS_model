@@ -92,6 +92,7 @@ degeneration of motor neurons, resulting in muscle atrophy of ALS.<br>
 => Done<br>
 <br>
 • Neurons become Giant Motor Units (to compensate dying neurons)<br>
+(from David J on an ALS forum)<br>
 => To be done<br>
 <br>
 • The cell model includes the complete dopamine (DA) synthesis, metabolism, and transport
