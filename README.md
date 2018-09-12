@@ -1,4 +1,4 @@
-# ALS_model
+<h2>ALS model</h2>
 (This is a work in progress)
 
 Amyotrophic Lateral Sclerosis (ALS) is a fatal neurodegenerative disease which is characterized by degeneration of motor neurons in the spinal cord, brain stem and motor cortex.
@@ -13,95 +13,95 @@ Of course, neither this model nor any other mathematical or biological model can
 
 Mathematical modeling can be a tool to give a coherent and quantitative framework for the discussion, to suggest possible physiological mechanisms and to help plan future experiments.
 
-<b>Roadmap:</b>
+<h2>Roadmap:</h2>
 
 • Immune cells of the central nervous system, including microglia and T cells, affect the
 survival of motor neurons.<br>
-=> Done
-
+=> Done<br>
+<br>
 • In a healthy human, a pre-synaptic neuron releases glutamate (Glu), which binds to
 glutamate receptors (GluRs) on the corresponding post-synaptic motor neuron, causing
-excitation by the influx of calcium.
-=> To be done
-
+excitation by the influx of calcium.<br>
+=> To be done<br>
+<br>
 • Extracellular glutamate is rapidly removed from the synaptic cleft (Exocytosis) by
-astrocytes through EAAT2 transporters.
-=> To be done
+astrocytes through EAAT2 transporters.<br>
+=> To be done<br>
 
 • In a non-inflamed environment, the microglial cells remain in a state of rest or possibly "of
-vigilance", presumably releasing factors having a neurotrophic influence.
-=> Done
-
+vigilance", presumably releasing factors having a neurotrophic influence.<br>
+=> Done<br>
+<br>
 • In the case of an ALS pathology, a decrease in the expression of the astrocyte glutamate
 EAAT2 transporters leads to a prolonged excitation of the motoneurons and to participate in
-their degeneration (excitotoxic hypothesis).
-=> To be done
-
+their degeneration (excitotoxic hypothesis).<br>
+=> To be done<br>
+<br>
 • Activated microglial cells (pro inflammatory) and astrocytes produce toxic factors.
-=> Partly done
-
+=> Partly done<br>
+<br>
 • Among the factors released by astrocytes, macrophage colony stimulating factor (M-CSF)
 and monocyte chemoattractant protein (MCP-1) are capable of activating microglial cells
-by increasing their proliferation (M-CSF) or their migration (MCP-1).
-=> To be done
-
+by increasing their proliferation (M-CSF) or their migration (MCP-1).<br>
+=> To be done<br>
+<br>
 • Microglial cells are also subject to auto-activation by releasing tumor necrosis factor-α
 (TNFα) for which they express receptors 1 and 2 (TNFR 1/2) and M-CSF that act on the fms
-receptor.
-=> To be done
-
+receptor.<br>
+=> To be done<br>
+<br>
 • Activated (pro inflammatory) microglial cells will produce more reactive oxygen species
 (ROS) such as nitric oxide (NO) via NO synthase and superoxide (O2-) by activation of
 NADPH oxidases (Nox 1/2), but also pro-inflammatory cytokines 6 (IL-1β, IL-6) and
-prostaglandins (PGE2) by activation of cyclooxygenase 2 (COX2).
-=> To be done
-
+prostaglandins (PGE2) by activation of cyclooxygenase 2 (COX2).<br>
+=> To be done<br>
+<br>
 • Extracellular ATP, probably from damaged motor neurons, binds to microglia purinergic P2
-receptors, thereby contributing to microglial activation.
-=> To be done
-
+receptors, thereby contributing to microglial activation.<br>
+=> To be done<br>
+<br>
 • Motor neurons can also participate in glial cell activation by releasing mutant SOD1 co-
 secreted with chromogranin (Cg) that can bind to CD14 acting in concert with Toll-like
-receptors (TLR2 / 4).
-=> To be done
-
+receptors (TLR2 / 4).<br>
+=> To be done<br>
+<br>
 • The adaptive immune system is also part of the degenerative response of motor neurons. T
 cells (CD4+ and CD8+) from the periphery of the spinal cord enter in it during (or even
-initiating) the inflammatory process of ALS.
-=> To be done (but some progress had been made)
-
+initiating) the inflammatory process of ALS.<br>
+=> To be done (but some progress had been made)<br>
+<br>
 • CD4+ lymphocytes appear to have a neuroprotective effect by directly releasing
 inflammatory factors such as interleukins 4 and 10 (IL-4, IL-10) or by acting on microglial
 cells to increase their neurotrophic function (production of insulin-like growth factor-1
-(IGF-1)) .
-=> To be done
-
+(IGF-1)) .<br>
+=> To be done<br>
+<br>
 • The role of infiltrating CD8+ T cells remains to determine and B cells are not present in the
-spinal cord.
-=> To be done
-
+spinal cord.<br>
+=> To be done<br>
+<br>
 • Dendritic cells (antigen-presenting cells) secrete MCP-1, which probably participates in the
-infiltration of peripheral immune cells.
-=> To be done
-
+infiltration of peripheral immune cells.<br>
+=> To be done<br>
+<br>
 • Overall, the inflammatory environment and increased oxidative stress contribute to the
-degeneration of motor neurons, resulting in muscle atrophy of ALS.
-=> Done
-
-• Neurons become Giant Motor Units (to compensate dying neurons)
-=> To be done
-
+degeneration of motor neurons, resulting in muscle atrophy of ALS.<br>
+=> Done<br>
+<br>
+• Neurons become Giant Motor Units (to compensate dying neurons)<br>
+=> To be done<br>
+<br>
 • The cell model includes the complete dopamine (DA) synthesis, metabolism, and transport
-introduced by Best et al.
-=> To be done (merged in and removed because it created instability)
-
+introduced by Best et al.<br>
+=> To be done (merged in and removed because it created instability)<br>
+<br>
 • It models mitochondrial biogenesis and mitophagy, degradation processes of the lysosome
-and the proteasome, and reactions of the cell to reactive oxygen species (ROS).
-=> To be done (A model was studied but not merged because fear of insstability)
-
+and the proteasome, and reactions of the cell to reactive oxygen species (ROS).<br>
+=> To be done (A model adapted from Büchel et al. was studied but not merged because fear of instability)<br>
+<br>
 • Additionally, the two genes HtrA2 and PINK1, both of which are involved in the
-mitochondrial stress response, are also integrated.
-=> To be done
+mitochondrial stress response, are also integrated.<br>
+=> To be done<br>
 
 
 
