@@ -38,7 +38,7 @@ EAAT2 transporters leads to a prolonged excitation of the motoneurons and to par
 their degeneration (excitotoxic hypothesis).<br>
 => To be done<br>
 <br>
-• Activated microglial cells (pro inflammatory) and astrocytes produce toxic factors.
+• Activated microglial cells (pro inflammatory) and astrocytes produce toxic factors.<br>
 => Partly done<br>
 <br>
 • Among the factors released by astrocytes, macrophage colony stimulating factor (M-CSF)
