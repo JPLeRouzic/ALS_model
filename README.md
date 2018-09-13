@@ -20,6 +20,25 @@ Mathematical modeling can be a tool to give a coherent and quantitative framewor
 survival of motor neurons. Based on Puri 2010, Cloutier 2009, Aubert 2005.<br>
 => Done<br>
 <br>
+• In a non-inflamed environment, the microglial cells remain in a state of rest or possibly "of
+vigilance", presumably releasing factors having a neurotrophic influence.<br>
+=> Done<br>
+<br>
+• Overall, the inflammatory environment and increased oxidative stress contribute to the
+degeneration of motor neurons, resulting in muscle atrophy of ALS.<br>
+=> Done<br>
+<br>
+• Activated microglial cells (pro inflammatory) and astrocytes produce toxic factors.<br>
+=> Partly done<br>
+<br>
+• The cell model includes the complete dopamine (DA) synthesis, metabolism, and transport
+introduced by Best et al.<br>
+=> To be done (adapted from Büchel et al. and merged in and then removed because it created instability)<br>
+<br>
+• It models mitochondrial biogenesis and mitophagy, degradation processes of the lysosome
+and the proteasome, and reactions of the cell to reactive oxygen species (ROS).<br>
+=> To be done (A model adapted from Büchel et al. was studied but not merged because fear of instability)<br>
+<br>
 • In a healthy human, a pre-synaptic neuron releases glutamate (Glu), which binds to
 glutamate receptors (GluRs) on the corresponding post-synaptic motor neuron, causing
 excitation by the influx of calcium.<br>
@@ -29,17 +48,10 @@ excitation by the influx of calcium.<br>
 astrocytes through EAAT2 transporters.<br>
 => To be done<br>
 <br>
-• In a non-inflamed environment, the microglial cells remain in a state of rest or possibly "of
-vigilance", presumably releasing factors having a neurotrophic influence.<br>
-=> Done<br>
-<br>
 • In the case of an ALS pathology, a decrease in the expression of the astrocyte glutamate
 EAAT2 transporters leads to a prolonged excitation of the motoneurons and to participate in
 their degeneration (excitotoxic hypothesis).<br>
 => To be done<br>
-<br>
-• Activated microglial cells (pro inflammatory) and astrocytes produce toxic factors.<br>
-=> Partly done<br>
 <br>
 • Among the factors released by astrocytes, macrophage colony stimulating factor (M-CSF)
 and monocyte chemoattractant protein (MCP-1) are capable of activating microglial cells
@@ -87,21 +99,9 @@ spinal cord.<br>
 infiltration of peripheral immune cells.<br>
 => To be done<br>
 <br>
-• Overall, the inflammatory environment and increased oxidative stress contribute to the
-degeneration of motor neurons, resulting in muscle atrophy of ALS.<br>
-=> Done<br>
-<br>
 • Neurons become Giant Motor Units (to compensate dying neurons)<br>
 (from David J on an ALS forum)<br>
 => To be done<br>
-<br>
-• The cell model includes the complete dopamine (DA) synthesis, metabolism, and transport
-introduced by Best et al.<br>
-=> To be done (adapted from Büchel et al. and merged in and then removed because it created instability)<br>
-<br>
-• It models mitochondrial biogenesis and mitophagy, degradation processes of the lysosome
-and the proteasome, and reactions of the cell to reactive oxygen species (ROS).<br>
-=> To be done (A model adapted from Büchel et al. was studied but not merged because fear of instability)<br>
 <br>
 • Additionally, the two genes HtrA2 and PINK1, both of which are involved in the
 mitochondrial stress response, are also integrated.<br>
