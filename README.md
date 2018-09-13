@@ -46,7 +46,7 @@ excitation by the influx of calcium.<br>
 <br>
 • Extracellular glutamate is rapidly removed from the synaptic cleft (Exocytosis) by
 astrocytes through EAAT2 transporters.<br>
-=> To be done<br>
+=> To be done (Stobart and al. 10.3389/fncel.2013.00038) <br>
 <br>
 • In the case of an ALS pathology, a decrease in the expression of the astrocyte glutamate
 EAAT2 transporters leads to a prolonged excitation of the motoneurons and to participate in
