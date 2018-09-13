@@ -29,7 +29,7 @@ degeneration of motor neurons, resulting in muscle atrophy of ALS.<br>
 => Done<br>
 <br>
 • Activated microglial cells (pro inflammatory) and astrocytes produce toxic factors.<br>
-=> Partly done<br>
+=> Done<br>
 <br>
 • The cell model includes the complete dopamine (DA) synthesis, metabolism, and transport
 introduced by Best et al.<br>
