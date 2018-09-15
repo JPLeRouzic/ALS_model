@@ -12,6 +12,8 @@ In this study, we develop a mathematical model of the interactions between astro
 Of course, neither this model nor any other mathematical or biological model can be conclusive, only unambiguous clinical trials can provide pragmatic information. However having a model, especially a SBML model which is independant of any toolset, permits to test ideas quickly.
 
 Mathematical modeling can be a tool to give a coherent and quantitative framework for the discussion, to suggest possible physiological mechanisms and to help plan future experiments.
+<img src="https://raw.githubusercontent.com/Hjertesvikt/ALS_model/master/ALS-SBML-ScreenCapture.png">
+
 
 <h2>Roadmap: </h2><br>
 (inspired by Barbeito and al. Journal of Neural Transmission · August 2010) 
