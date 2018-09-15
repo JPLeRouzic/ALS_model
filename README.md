@@ -41,6 +41,11 @@ EAAT2 transporters leads to a prolonged excitation of the motoneurons and to par
 their degeneration (excitotoxic hypothesis).<br>
 => Partly Done  <br>
 <br>
+• Among the factors released by astrocytes, macrophage colony stimulating factor (M-CSF)
+and monocyte chemoattractant protein (MCP-1) are capable of activating microglial cells
+by increasing their proliferation (M-CSF) or their migration (MCP-1).<br>
+=> Partly done<br>
+<br>
 • The cell model includes the complete dopamine (DA) synthesis, metabolism, and transport
 introduced by Best et al.<br>
 => To be done (adapted from Büchel et al. and merged in and then removed because it created instability)<br>
@@ -48,11 +53,6 @@ introduced by Best et al.<br>
 • It models mitochondrial biogenesis and mitophagy, degradation processes of the lysosome
 and the proteasome, and reactions of the cell to reactive oxygen species (ROS).<br>
 => To be done (A model adapted from Büchel et al. was studied but not merged because fear of instability)<br>
-<br>
-• Among the factors released by astrocytes, macrophage colony stimulating factor (M-CSF)
-and monocyte chemoattractant protein (MCP-1) are capable of activating microglial cells
-by increasing their proliferation (M-CSF) or their migration (MCP-1).<br>
-=> To be done<br>
 <br>
 • Microglial cells are also subject to auto-activation by releasing tumor necrosis factor-α
 (TNFα) for which they express receptors 1 and 2 (TNFR 1/2) and M-CSF that act on the fms
