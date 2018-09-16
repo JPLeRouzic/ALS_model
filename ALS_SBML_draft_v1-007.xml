@@ -1,617 +1,625 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" metaid="c4124f17-ac90-4ca4-be1d-2fe34c562a24" version="4">
-  <model name="JPLeRouzic2018 - Interaction between astrocytes and neurons in Amyotrophic lateral sclerosis (ALS)" id="MODEL_to_be_done">
-    <notes>
-      <body xmlns="http://www.w3.org/1999/xhtml">
-        <div class="dc:title">JPLeRouzic2018 - Interactions between astrocytes
+    <model name="JPLeRouzic2018 - Interaction between astrocytes and neurons in Amyotrophic lateral sclerosis (ALS)" id="MODEL_to_be_done">
+        <notes>
+            <body xmlns="http://www.w3.org/1999/xhtml">
+                <div class="dc:title">JPLeRouzic2018 - Interactions between astrocytes
                     and neurons in Amyotrophic lateral sclerosis (ALS)</div>
-            <div class="dc:description">Encoded non-curated model. Issues:      <br>To be done</br>
+                <div class="dc:description">Encoded non-curated model. Issues:      <br>To be done</br>
                 </div>
-            <div class="dc:bibliographicCitation">      <p>This model is described in the article:</p>
-                <div class="bibo:title">        <a href="http://identifiers.org/pubmed/20552235" title="Access to this publication">Motor neuron-immune interactions: The vicious circle of ALS.</a>
+                <div class="dc:bibliographicCitation">      
+                    <p>This model is described in the article:</p>
+                    <div class="bibo:title">        
+                        <a href="http://identifiers.org/pubmed/20552235" title="Access to this publication">Motor neuron-immune interactions: The vicious circle of ALS.</a>
                     </div>
-                <div class="bibo:authorList">Barbeito AG, Mesci P, Boillée S.</div>
-                <div class="bibo:Journal">J Neural Transm (Vienna). 2010 Aug;117(8):981-1000.</div>
-                <p>Abstract:</p>
-                <div class="bibo:abstract">        <p>Because microglial cells, the resident macrophages of the CNS, react to any lesion of the nervous system,          <br/>
-              they have for long been regarded as potential players in the pathogenesis of several neurodegenerative disorders including amyotrophic lateral sclerosis,          <br/>
-              the most common motor neuron disease in the adult.          <br/>
-              In recent years, this microglial reaction to motor neuron injury, in particular, and the innate immune response, in general,          <br/>
-              has been implicated in the progression of the disease, in mouse models of ALS.          <br/>
-              The mechanisms by which microglial cells influence motor neuron death in ALS are still largely unknown.          <br/>
-              Microglial activation increases over the course of the disease and is associated with an alteration in the production of toxic factors and also          <br/>
-              neurotrophic factors.          <br/>
-              Adding to the microglial/macrophage response to motor neuron degeneration, the adaptive immune system can likewise influence the disease process.          <br/>
-              Exploring these motor neuron-immune interactions could lead to a better understanding in the physiopathology of ALS to find          <br/>
-              new pathways to slow down motor neuron degeneration.          </p>
+                    <div class="bibo:authorList">Barbeito AG, Mesci P, Boillée S.</div>
+                    <div class="bibo:Journal">J Neural Transm (Vienna). 2010 Aug;117(8):981-1000.</div>
+                    <p>Abstract:</p>
+                    <div class="bibo:abstract">        
+                        <p>Because microglial cells, the resident macrophages of the CNS, react to any lesion of the nervous system,          <br/>
+                            they have for long been regarded as potential players in the pathogenesis of several neurodegenerative disorders including amyotrophic lateral sclerosis,          <br/>
+                            the most common motor neuron disease in the adult.          <br/>
+                            In recent years, this microglial reaction to motor neuron injury, in particular, and the innate immune response, in general,          <br/>
+                            has been implicated in the progression of the disease, in mouse models of ALS.          <br/>
+                            The mechanisms by which microglial cells influence motor neuron death in ALS are still largely unknown.          <br/>
+                            Microglial activation increases over the course of the disease and is associated with an alteration in the production of toxic factors and also          <br/>
+                            neurotrophic factors.          <br/>
+                            Adding to the microglial/macrophage response to motor neuron degeneration, the adaptive immune system can likewise influence the disease process.          <br/>
+                            Exploring these motor neuron-immune interactions could lead to a better understanding in the physiopathology of ALS to find          <br/>
+                            new pathways to slow down motor neuron degeneration.          </p>
                     </div>
-                <div class="dc:publisher">        <p>This model will be hosted on          <a href="http://www.ebi.ac.uk/biomodels/">BioModels Database</a>
-              and identified by:          <a href="http://identifiers.org/biomodels.db/MODELtobedone">MODEL-to-be-done</a>
-              .          </p>
-                    <p>To cite BioModels Database, please use:          <a href="http://identifiers.org/pubmed/20587024" title="Latest BioModels Database publication">BioModels Database:
+                    <div class="dc:publisher">        
+                        <p>This model will be hosted on          <a href="http://www.ebi.ac.uk/biomodels/">BioModels Database</a>
+                            and identified by:          <a href="http://identifiers.org/biomodels.db/MODELtobedone">MODEL-to-be-done</a>
+                            .          </p>
+                        <p>To cite BioModels Database, please use:          <a href="http://identifiers.org/pubmed/20587024" title="Latest BioModels Database publication">BioModels Database:
                                 An enhanced, curated and annotated resource for published
                                 quantitative kinetic models</a>
-              .          </p>
+                            .          </p>
                     </div>
-                <div class="dc:license">        <p>To the extent possible under law, all copyright and related or
+                    <div class="dc:license">        
+                        <p>To the extent possible under law, all copyright and related or
                             neighbouring rights to this encoded model have been dedicated to
                             the public domain worldwide. Please refer to          <a href="http://creativecommons.org/publicdomain/zero/1.0/" title="Access to: CC0 1.0 Universal (CC0 1.0), Public Domain Dedication">CC0
                                 Public Domain Dedication</a>
-              for more information.          </p>
+                            for more information.          </p>
                     </div>
                 </div>
             </body>
       
-    </notes>
-    <listOfUnitDefinitions>
-      <unitDefinition name="volume" id="volume" metaid="_38ba8c9f-937c-475c-813f-aa6ade0b1845">
-        <listOfUnits>
-          <unit scale="-3" metaid="a9cd72a6-2891-4f4a-99ce-1de794afd9c0" kind="litre" multiplier="1" exponent="1"/>
-        </listOfUnits>
-      </unitDefinition>
-      <unitDefinition name="time" id="time" metaid="_79bb7d94-2052-4d38-801e-f2de2f2cf67a">
-        <listOfUnits>
-          <unit scale="0" metaid="d517ee51-ff20-4f36-89a5-72cc7414e9c1" kind="second" exponent="1"/>
-        </listOfUnits>
-      </unitDefinition>
-      <unitDefinition name="substance" id="substance" metaid="_45963f6f-46e8-415f-83b9-f4ff8374d6fb">
-        <listOfUnits>
-          <unit scale="0" metaid="_80760473-3d2d-49a5-853b-c0db9933eb5d" kind="dimensionless" multiplier="1" exponent="1"/>
-        </listOfUnits>
-      </unitDefinition>
-    </listOfUnitDefinitions>
-    <listOfCompartments>
-      <compartment constant="true" size="1" metaid="COPASI1" name="CentralNervousSystem" id="CentralNervousSystem" spatialDimensions="3"/>
-      <compartment constant="true" size="0.2" metaid="_9900a077-72fa-46e3-9b6c-81856a5bdb48" name="Extracellular space" id="Extracellular_space" spatialDimensions="3"/>
-      <compartment constant="true" size="0.0055" metaid="_15807251-6568-48ac-8f23-b56570441672" name="Capillaries" id="Capillaries" spatialDimensions="3"/>
-      <compartment constant="true" size="0.0237" metaid="dd33450c-6095-4d8e-9482-3ad351480412" name="Veins" id="Veins" spatialDimensions="3"/>
-    </listOfCompartments>
-    <listOfSpecies>
-      <species boundaryCondition="true" constant="false" metaid="COPASI215" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="LivingLowerMotoNeurons" id="LivingLowerMotoNeurons" initialConcentration="999999">
-        <notes>
-          <body xmlns="http://www.w3.org/1999/xhtml">
-        Surviving lower motor neurons        <br/>
-            The efferent fiber carries nerve impulses away from the  the spinal cord, and toward the muscles.        <br/>
+        </notes>
+        <listOfUnitDefinitions>
+            <unitDefinition name="volume" id="volume" metaid="_38ba8c9f-937c-475c-813f-aa6ade0b1845">
+                <listOfUnits>
+                    <unit scale="-3" metaid="a9cd72a6-2891-4f4a-99ce-1de794afd9c0" kind="litre" multiplier="1" exponent="1"/>
+                </listOfUnits>
+            </unitDefinition>
+            <unitDefinition name="time" id="time" metaid="_79bb7d94-2052-4d38-801e-f2de2f2cf67a">
+                <listOfUnits>
+                    <unit scale="0" metaid="d517ee51-ff20-4f36-89a5-72cc7414e9c1" kind="second" exponent="1"/>
+                </listOfUnits>
+            </unitDefinition>
+            <unitDefinition name="substance" id="substance" metaid="_45963f6f-46e8-415f-83b9-f4ff8374d6fb">
+                <listOfUnits>
+                    <unit scale="0" metaid="_80760473-3d2d-49a5-853b-c0db9933eb5d" kind="dimensionless" multiplier="1" exponent="1"/>
+                </listOfUnits>
+            </unitDefinition>
+        </listOfUnitDefinitions>
+        <listOfCompartments>
+            <compartment constant="true" size="1" metaid="COPASI1" name="CentralNervousSystem" id="CentralNervousSystem" spatialDimensions="3"/>
+            <compartment constant="true" size="0.2" metaid="_9900a077-72fa-46e3-9b6c-81856a5bdb48" name="Extracellular space" id="Extracellular_space" spatialDimensions="3"/>
+            <compartment constant="true" size="0.0055" metaid="_15807251-6568-48ac-8f23-b56570441672" name="Capillaries" id="Capillaries" spatialDimensions="3"/>
+            <compartment constant="true" size="0.0237" metaid="dd33450c-6095-4d8e-9482-3ad351480412" name="Veins" id="Veins" spatialDimensions="3"/>
+        </listOfCompartments>
+        <listOfSpecies>
+            <species boundaryCondition="true" constant="false" metaid="COPASI215" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="LivingLowerMotoNeurons" id="LivingLowerMotoNeurons" initialConcentration="999999">
+                <notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        Surviving lower motor neurons        <br/>
+                        The efferent fiber carries nerve impulses away from the  the spinal cord, and toward the muscles.        <br/>
                     </body>
           
-        </notes>
-</species>
-      <species boundaryCondition="true" constant="false" metaid="COPASI312" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="DeadLowerMotoNeurons" id="DeadLowerMotoNeurons" initialConcentration="1">
-        <notes>
-          <body xmlns="http://www.w3.org/1999/xhtml">
-        Dead lower motor neurons        <br/>
-            The efferent fiber carries nerve impulses away from the  the spinal cord, and toward the muscles.        <br/>
+                </notes>
+            </species>
+            <species boundaryCondition="true" constant="false" metaid="COPASI312" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="DeadLowerMotoNeurons" id="DeadLowerMotoNeurons" initialConcentration="1">
+                <notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        Dead lower motor neurons        <br/>
+                        The efferent fiber carries nerve impulses away from the  the spinal cord, and toward the muscles.        <br/>
                     </body>
           
-        </notes>
-</species>
-      <species boundaryCondition="true" constant="false" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="EAAT2Transporters" id="EAAT2Transporters" initialConcentration="200000">
-        <notes>
-          <body xmlns="http://www.w3.org/1999/xhtml">
-        * In a healthy situation the presynaptic neuron releases glutamate (Glu), which binds to        <br/>
-            glutamate receptors (GluRs) on the postsynaptic motor neuron, resulting in excitation through        <br/>
-            calcium influx.        <br/>
-            Extracellular glutamate is quickly cleared from the synaptic cleft by astrocytes through EAAT2 transporters.        <br/>
-            * In an ALS situation decreased expression of astrocytic glutamate        <br/>
-            transporters EAAT2 could lead to prolonged glutamate excitation of motor neurons and        <br/>
-            participate in their degeneration (excitotoxic hypothesis)        <br/>
+                </notes>
+            </species>
+            <species boundaryCondition="true" constant="false" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="EAAT2Transporters" id="EAAT2Transporters" initialConcentration="200000">
+                <notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        * In a healthy situation the presynaptic neuron releases glutamate (Glu), which binds to        <br/>
+                        glutamate receptors (GluRs) on the postsynaptic motor neuron, resulting in excitation through        <br/>
+                        calcium influx.        <br/>
+                        Extracellular glutamate is quickly cleared from the synaptic cleft by astrocytes through EAAT2 transporters.        <br/>
+                        * In an ALS situation decreased expression of astrocytic glutamate        <br/>
+                        transporters EAAT2 could lead to prolonged glutamate excitation of motor neurons and        <br/>
+                        participate in their degeneration (excitotoxic hypothesis)        <br/>
                     </body>
           
-        </notes>
-</species>
-      <species boundaryCondition="true" constant="false" metaid="COPASI511" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="Pro_Inflammatory_Astroglia" id="Pro_Inflammatory_Astroglia" initialConcentration="50">
-        <notes>
-          <body xmlns="http://www.w3.org/1999/xhtml">
-                <pre>Proliferating astroglia</pre>
+                </notes>
+            </species>
+            <species boundaryCondition="true" constant="false" metaid="COPASI511" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="Pro_Inflammatory_Astroglia" id="Pro_Inflammatory_Astroglia" initialConcentration="50">
+                <notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <pre>Proliferating astroglia</pre>
                     </body>
           
-        </notes>
-</species>
-      <species boundaryCondition="true" constant="false" metaid="COPASI611" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="Anti_Inflammatory_Microglia" id="Anti_Inflammatory_Microglia" initialConcentration="200">
-        <notes>
-          <body xmlns="http://www.w3.org/1999/xhtml">
-                <pre>Normal microglia</pre>
+                </notes>
+            </species>
+            <species boundaryCondition="true" constant="false" metaid="COPASI611" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="Anti_Inflammatory_Microglia" id="Anti_Inflammatory_Microglia" initialConcentration="200">
+                <notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <pre>Normal microglia</pre>
                     </body>
           
-        </notes>
-</species>
-      <species boundaryCondition="true" constant="false" metaid="COPASI7112" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="Pro_Inflammatory_Microglia" id="Pro_Inflammatory_Microglia" initialConcentration="50">
-        <notes>
-          <body xmlns="http://www.w3.org/1999/xhtml">
-                <pre>Reactive microglia</pre>
+                </notes>
+            </species>
+            <species boundaryCondition="true" constant="false" metaid="COPASI7112" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="Pro_Inflammatory_Microglia" id="Pro_Inflammatory_Microglia" initialConcentration="50">
+                <notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <pre>Reactive microglia</pre>
                     </body>
           
-        </notes>
-</species>
-      <species boundaryCondition="true" constant="false" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="CD4_T_Lymphocytes" id="CD4_T_Lymphocytes" initialConcentration="0">
-        <notes>
-          <body xmlns="http://www.w3.org/1999/xhtml">
-                <pre>CD4 T_Lymphocytes generated mostly because of dying neurons.</pre>
+                </notes>
+            </species>
+            <species boundaryCondition="true" constant="false" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="CD4_T_Lymphocytes" id="CD4_T_Lymphocytes" initialConcentration="0">
+                <notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <pre>CD4 T_Lymphocytes generated mostly because of dying neurons.</pre>
                     </body>
           
-        </notes>
-</species>
-      <species boundaryCondition="true" constant="false" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="CD8_T_Lymphocytes" id="CD8_T_Lymphocytes" initialConcentration="0">
-        <notes>
-          <body xmlns="http://www.w3.org/1999/xhtml">
-                <pre>CD8 T_Lymphocytes generated mostly because of dying neurons.</pre>
+                </notes>
+            </species>
+            <species boundaryCondition="true" constant="false" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="CD8_T_Lymphocytes" id="CD8_T_Lymphocytes" initialConcentration="0">
+                <notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <pre>CD8 T_Lymphocytes generated mostly because of dying neurons.</pre>
                     </body>
           
-        </notes>
-</species>
-      <species boundaryCondition="true" constant="false" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="M_CSF_TxcFctr_Astroglia" id="M_CSF_TxcFctr_Astroglia" initialConcentration="0">
-        <notes>
-          <body xmlns="http://www.w3.org/1999/xhtml">
-                <pre>Toxic Factors generated by Astroglia: Macrophage Colony Stimulating Factor (M-CSF) increase microglial cells proliferation.</pre>
+                </notes>
+            </species>
+            <species boundaryCondition="true" constant="false" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="M_CSF_TxcFctr_Astroglia" id="M_CSF_TxcFctr_Astroglia" initialConcentration="0">
+                <notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <pre>Toxic Factors generated by Astroglia: Macrophage Colony Stimulating Factor (M-CSF) increase microglial cells proliferation.</pre>
                     </body>
           
-        </notes>
-</species>
-      <species boundaryCondition="true" constant="false" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="MCP_1_TxcFctr_Astroglia" id="MCP_1_TxcFctr_Astroglia" initialConcentration="0">
-        <notes>
-          <body xmlns="http://www.w3.org/1999/xhtml">
-                <pre>Toxic Factors generated by Astroglia: Monocyte Chemoattractant Protein-1(MCP-1) increase microglial cells migration.</pre>
+                </notes>
+            </species>
+            <species boundaryCondition="true" constant="false" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="MCP_1_TxcFctr_Astroglia" id="MCP_1_TxcFctr_Astroglia" initialConcentration="0">
+                <notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <pre>Toxic Factors generated by Astroglia: Monocyte Chemoattractant Protein-1(MCP-1) increase microglial cells migration.</pre>
                     </body>
           
-        </notes>
-</species>
-      <species boundaryCondition="true" constant="false" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="TNFalpha_TxcFctr_Microglia" id="TNFalpha_TxcFctr_Microglia" initialConcentration="0">
-        <notes>
-          <body xmlns="http://www.w3.org/1999/xhtml">
-                <pre>Toxic Factors generated by Microglia: Microglial cells self-activation.</pre>
+                </notes>
+            </species>
+            <species boundaryCondition="true" constant="false" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="TNFalpha_TxcFctr_Microglia" id="TNFalpha_TxcFctr_Microglia" initialConcentration="0">
+                <notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <pre>Toxic Factors generated by Microglia: Microglial cells self-activation.</pre>
                     </body>
           
-        </notes>
-</species>
-      <species boundaryCondition="true" constant="false" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="ROS_NO_TxcFctr_Microglia" id="ROS_NO_TxcFctr_Microglia" initialConcentration="0">
-        <notes>
-          <body xmlns="http://www.w3.org/1999/xhtml">
-                <pre>Toxic Factors generated by Microglia: Reactive Oxygen Species (ROS) like nitric oxide (NO) through the inducible NO synthase.</pre>
+                </notes>
+            </species>
+            <species boundaryCondition="true" constant="false" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="ROS_NO_TxcFctr_Microglia" id="ROS_NO_TxcFctr_Microglia" initialConcentration="0">
+                <notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <pre>Toxic Factors generated by Microglia: Reactive Oxygen Species (ROS) like nitric oxide (NO) through the inducible NO synthase.</pre>
                     </body>
           
-        </notes>
-</species>
-      <species boundaryCondition="true" constant="false" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="ROS_O2_TxcFctr_Microglia" id="ROS_O2_TxcFctr_Microglia" initialConcentration="0">
-        <notes>
-          <body xmlns="http://www.w3.org/1999/xhtml">
-                <pre>Toxic Factors generated by Microglia: Reactive Oxygen Species (ROS) like Superoxide (O2-), is generated by the immune system to kill invading microorganisms, through activation of NADPH oxidases.</pre>
+                </notes>
+            </species>
+            <species boundaryCondition="true" constant="false" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="ROS_O2_TxcFctr_Microglia" id="ROS_O2_TxcFctr_Microglia" initialConcentration="0">
+                <notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <pre>Toxic Factors generated by Microglia: Reactive Oxygen Species (ROS) like Superoxide (O2-), is generated by the immune system to kill invading microorganisms, through activation of NADPH oxidases.</pre>
                     </body>
           
-        </notes>
-</species>
-      <species boundaryCondition="true" constant="false" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="IL1b_TxcFctr_Microglia" id="IL1b_TxcFctr_Microglia" initialConcentration="0">
-        <notes>
-          <body xmlns="http://www.w3.org/1999/xhtml">
-                <pre>Toxic Factors generated by Microglia includes the proinflammatory cytokine interleukin-1β (IL-1β).</pre>
+                </notes>
+            </species>
+            <species boundaryCondition="true" constant="false" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="IL1b_TxcFctr_Microglia" id="IL1b_TxcFctr_Microglia" initialConcentration="0">
+                <notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <pre>Toxic Factors generated by Microglia includes the proinflammatory cytokine interleukin-1β (IL-1β).</pre>
                     </body>
           
-        </notes>
-</species>
-      <species boundaryCondition="true" constant="false" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="IL6_TxcFctr_Microglia" id="IL6_TxcFctr_Microglia" initialConcentration="0">
-        <notes>
-          <body xmlns="http://www.w3.org/1999/xhtml">
-                <pre>Toxic Factors generated by Microglia.</pre>
+                </notes>
+            </species>
+            <species boundaryCondition="true" constant="false" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="IL6_TxcFctr_Microglia" id="IL6_TxcFctr_Microglia" initialConcentration="0">
+                <notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <pre>Toxic Factors generated by Microglia.</pre>
                     </body>
           
-        </notes>
-</species>
-      <species boundaryCondition="true" constant="false" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="COX2_TxcFctr_Microglia" id="COX2_TxcFctr_Microglia" initialConcentration="0">
-        <notes>
-          <body xmlns="http://www.w3.org/1999/xhtml">
-                <pre>Toxic Factors generated by Microglia. COX-2 is unexpressed under normal conditions in most cells, but elevated levels are found during inflammation. 
+                </notes>
+            </species>
+            <species boundaryCondition="true" constant="false" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="COX2_TxcFctr_Microglia" id="COX2_TxcFctr_Microglia" initialConcentration="0">
+                <notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <pre>Toxic Factors generated by Microglia. COX-2 is unexpressed under normal conditions in most cells, but elevated levels are found during inflammation. 
                             depletion of TDP43 in microglia, but not in astrocytes, strikingly upregulates cyclooxygenase-2 (COX-2) expression and prostaglandin E2 (PGE2) production through the activation of MAPK/ERK signaling and initiates neurotoxicity.</pre>
                     </body>
           
-        </notes>
-</species>
-      <species boundaryCondition="true" constant="false" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="PEG2_TxcFctr_Microglia" id="PEG2_TxcFctr_Microglia" initialConcentration="0">
-        <notes>
-          <body xmlns="http://www.w3.org/1999/xhtml">
-                <pre>Toxic Factors generated by Microglia. Prostaglandin E2 (PGE2) activity can be associated with motor neuron death by inducing free radical formation and glutamate release from astrocytes.
+                </notes>
+            </species>
+            <species boundaryCondition="true" constant="false" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="PEG2_TxcFctr_Microglia" id="PEG2_TxcFctr_Microglia" initialConcentration="0">
+                <notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <pre>Toxic Factors generated by Microglia. Prostaglandin E2 (PGE2) activity can be associated with motor neuron death by inducing free radical formation and glutamate release from astrocytes.
                             depletion of TDP43 in microglia, but not in astrocytes, strikingly upregulates cyclooxygenase-2 (COX-2) expression and prostaglandin E2 (PGE2) production through the activation of MAPK/ERK signaling and initiates neurotoxicity.</pre>
                     </body>
           
-        </notes>
-</species>
-      <species boundaryCondition="true" constant="false" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="TDP43_TxcFctr_Microglia" id="TDP43_TxcFctr_Microglia" initialConcentration="0">
-        <notes>
-          <body xmlns="http://www.w3.org/1999/xhtml">
-                <pre>Depletion of microglial TDP43 results in enhanced synapse loss and promotes amyloid clearance in a mouse model of AD. DOI https://doi.org/10.1016/j.neuron.2017.05.037
+                </notes>
+            </species>
+            <species boundaryCondition="true" constant="false" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="TDP43_TxcFctr_Microglia" id="TDP43_TxcFctr_Microglia" initialConcentration="0">
+                <notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <pre>Depletion of microglial TDP43 results in enhanced synapse loss and promotes amyloid clearance in a mouse model of AD. DOI https://doi.org/10.1016/j.neuron.2017.05.037
                             Depletion of TDP43 in microglia, but not in astrocytes, strikingly upregulates cyclooxygenase-2 (COX-2) expression and prostaglandin E2 (PGE2) production through the activation of MAPK/ERK signaling and initiates neurotoxicity.</pre>
                     </body>
           
-        </notes>
-</species>
-      <species boundaryCondition="true" constant="false" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="TDP43_TxcFctr_Astroglia" id="TDP43_TxcFctr_Astroglia" initialConcentration="0">
-        <notes>
-          <body xmlns="http://www.w3.org/1999/xhtml">
-                <pre>For future reference. 
-			Depletion of TDP43 in microglia, but not in astrocytes, strikingly upregulates cyclooxygenase-2 (COX-2) expression and prostaglandin E2 (PGE2) production through the activation of MAPK/ERK signaling and initiates neurotoxicity.</pre>
+                </notes>
+            </species>
+            <species boundaryCondition="true" constant="false" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="TDP43_TxcFctr_Astroglia" id="TDP43_TxcFctr_Astroglia" initialConcentration="0">
+                <notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <pre>For future reference. 
+                            Depletion of TDP43 in microglia, but not in astrocytes, strikingly upregulates cyclooxygenase-2 (COX-2) expression and prostaglandin E2 (PGE2) production through the activation of MAPK/ERK signaling and initiates neurotoxicity.</pre>
                     </body>
           
-        </notes>
-</species>
-      <species boundaryCondition="true" constant="false" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="ExtraCell_ATP_Microglia" id="ExtraCell_ATP_Microglia" initialConcentration="0">
-        <notes>
-          <body xmlns="http://www.w3.org/1999/xhtml">
-                <pre>Toxic Factors generated by Microglia: Reactive Oxygen Species (ROS) like Superoxide (O2-), is generated by the immune system to kill invading microorganisms, through activation of NADPH oxidases.</pre>
+                </notes>
+            </species>
+            <species boundaryCondition="true" constant="false" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="ExtraCell_ATP_Microglia" id="ExtraCell_ATP_Microglia" initialConcentration="0">
+                <notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <pre>Toxic Factors generated by Microglia: Reactive Oxygen Species (ROS) like Superoxide (O2-), is generated by the immune system to kill invading microorganisms, through activation of NADPH oxidases.</pre>
                     </body>
           
-        </notes>
-</species>
-      <species boundaryCondition="true" constant="false" metaid="COPASI711" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="Other_TxcFctrs_Astroglia" id="Other_TxcFctrs_Astroglia" initialConcentration="0">
-        <notes>
-          <body xmlns="http://www.w3.org/1999/xhtml">
-                <pre>Toxic Factors generated by Astroglia, PGE2 and ROS.</pre>
+                </notes>
+            </species>
+            <species boundaryCondition="true" constant="false" metaid="COPASI711" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="Other_TxcFctrs_Astroglia" id="Other_TxcFctrs_Astroglia" initialConcentration="0">
+                <notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <pre>Toxic Factors generated by Astroglia, PGE2 and ROS.</pre>
                     </body>
           
-        </notes>
-</species>
-      <species boundaryCondition="true" constant="false" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="Other_TxcFctrs_Microglia" id="Other_TxcFctrs_Microglia" initialConcentration="0">
-        <notes>
-          <body xmlns="http://www.w3.org/1999/xhtml">
-                <pre>Toxic Factors generated by Microglia, PGE2, IL-x, TNF, ROS and NO.</pre>
+                </notes>
+            </species>
+            <species boundaryCondition="true" constant="false" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="Other_TxcFctrs_Microglia" id="Other_TxcFctrs_Microglia" initialConcentration="0">
+                <notes>
+                    <body xmlns="http://www.w3.org/1999/xhtml">
+                        <pre>Toxic Factors generated by Microglia, PGE2, IL-x, TNF, ROS and NO.</pre>
                     </body>
           
-        </notes>
-</species>
-    </listOfSpecies>
-    <listOfParameters>
-      <parameter name="Nb of neurons" id="NbOfNeurons" value="1000000">
-        <notes>
+                </notes>
+            </species>
+        </listOfSpecies>
+        <listOfParameters>
+            <parameter name="Nb of neurons" id="NbOfNeurons" value="1000000">
+                <notes>
           
-        </notes>
-</parameter>
-      <parameter name="Nb of microglia" id="NbOfMicroglia" value="100000">
-        <notes>
+                </notes>
+            </parameter>
+            <parameter name="Nb of microglia" id="NbOfMicroglia" value="100000">
+                <notes>
           
-        </notes>
-</parameter>
-      <parameter name="Nb of TDP43 in microglia" id="NbOfTDP43Neurons" value="100000">
-        <notes>
+                </notes>
+            </parameter>
+            <parameter name="Nb of TDP43 in microglia" id="NbOfTDP43Neurons" value="100000">
+                <notes>
           
-        </notes>
-</parameter>
-      <parameter name="Nb of TDP43 in microglia" id="NbOfTDP43Microglia" value="100000">
-        <notes>
+                </notes>
+            </parameter>
+            <parameter name="Nb of TDP43 in microglia" id="NbOfTDP43Microglia" value="100000">
+                <notes>
           
-        </notes>
-</parameter>
-      <parameter name="Nb of TDP43 in Astroglia" id="NbOfTDP43Astroglia" value="100000">
-        <notes>
+                </notes>
+            </parameter>
+            <parameter name="Nb of TDP43 in Astroglia" id="NbOfTDP43Astroglia" value="100000">
+                <notes>
           
-        </notes>
-</parameter>
-      <parameter name="Nb of astrocytes" id="NbOfAstrocytes" value="200000">
-        <notes>
+                </notes>
+            </parameter>
+            <parameter name="Nb of astrocytes" id="NbOfAstrocytes" value="200000">
+                <notes>
           
-        </notes>
-</parameter>
-      <parameter name="prmExtraCellATPDeadNeurons" constant="true" id="prmExtraCellATPDeadNeurons" value="1">
-        <notes>
-          Extracellular ATP, likely coming from damaged motor neurons, binds to microglial purinergic P2 receptors,
-                therefore, contributing to microglial activation
-        </notes>
-</parameter>
-      <parameter name="prmCD4TLymphToDeadNeuron" constant="true" id="prmCD4TLymphToDeadNeuron" value="0.55">
-        <notes>
-          Pro Inflammatory Astroglia
-        </notes>
-</parameter>
-      <parameter name="prmCD8TLymphToDeadNeuron" constant="true" id="prmCD8TLymphToDeadNeuron" value="0.55">
-        <notes>
-          Pro Inflammatory Microglia
-        </notes>
-</parameter>
-      <parameter name="prmAntiInflamMicroglia" constant="true" id="prmAntiInflamMicroglia" value="1">
-        <notes>
-          Anti Inflammatory Microglia
-        </notes>
-</parameter>
-      <parameter name="prmProInflamMicroglia" constant="true" id="prmProInflamMicroglia" value="1">
-        <notes>
-          Pro Inflammatory Microglia
-        </notes>
-</parameter>
-      <parameter name="prmNonInflamAstroglia" constant="true" id="prmNonInflamAstroglia" value="1">
-        <notes>
-          Quiescent astroglia
-        </notes>
-</parameter>
-      <parameter name="prmTxcAstroglia" constant="true" id="prmTxcAstroglia" value="16">
-        <notes>
-          Toxic output from astroglia
-        </notes>
-</parameter>
-      <parameter name="prmTxcMicroglia" constant="true" id="prmTxcMicroglia" value="1">
-        <notes>
-          Toxic output from microglia
-        </notes>
-</parameter>
-      <parameter name="prmCycloOxygenase2" constant="true" id="prmCycloOxygenase2" value="1">
-        <notes>
-          Toxic output from microglia
-        </notes>
-</parameter>
-      <parameter name="prmCD4Lymphocytes" constant="true" id="prmCD4Lymphocytes" value="0.5">
-        <notes>
-          Controls the production of CD4 T_Lymphocytes in a dependency with the number of dying neurons
-        </notes>
-</parameter>
-      <parameter name="prmCD8Lymphocytes" constant="true" id="prmCD8Lymphocytes" value="0.5">
-        <notes>
-          Controls the production of CD8 T_Lymphocytes in a dependency with the number of dying neurons
-        </notes>
-</parameter>
-      <parameter name="prmCOX2_TxcFctr" constant="true" id="prmCOX2_TxcFctr" value="0.5">
-        <notes>
-          Controls the production of COX-2
-        </notes>
-</parameter>
-      <parameter name="prmPEG2_TxcFctr" constant="true" id="prmPEG2_TxcFctr" value="0.5">
-        <notes>
-          Controls the production of PEG-2
-        </notes>
-</parameter>
-      <parameter name="prmTDP43_TxcFctr" constant="true" id="prmTDP43_TxcFctr" value="0.5">
-        <notes>
-          Controls the production of PEG-2
-        </notes>
-</parameter>
-    </listOfParameters>
-    <listOfRules>
-      <rateRule variable="DeadLowerMotoNeurons" metaid="db19c551-9a1b-4c4f-a22b-5cb828b14a48">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">        
-          <apply>
-            <times/>
-            <ci> NbOfNeurons </ci>
-            <apply>
-              <divide/>
-              <apply>
-                <plus/>
-                <apply>
-                  <times/>
-                  <ci> prmCD4TLymphToDeadNeuron </ci>
-                  <ci> CD4_T_Lymphocytes </ci>
-                </apply>
-                <apply>
-                  <times/>
-                  <ci> prmCD8TLymphToDeadNeuron </ci>
-                  <ci> CD8_T_Lymphocytes </ci>
-                </apply>
-              </apply>
-              <apply>
-                <plus/>
-                <ci> NbOfAstrocytes </ci>
-                <ci> NbOfMicroglia </ci>
-              </apply>
-            </apply>
-          </apply>
-        </math>
-      </rateRule>
-      <rateRule variable="LivingLowerMotoNeurons" metaid="c7b7bcea-1097-42ef-8111-4023cebc0e75">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">        
-          <apply>
-            <minus/>
-            <ci> DeadLowerMotoNeurons </ci>
-          </apply>
-        </math>
-      </rateRule>
-      <rateRule variable="EAAT2Transporters">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">        
-          <apply>
-            <minus/>
-            <apply>
-              <times/>
-              <ci> prmProInflamMicroglia </ci>
-              <apply>
-                <divide/>
-                <ci> Pro_Inflammatory_Microglia </ci>
-                <ci> NbOfMicroglia </ci>
-              </apply>
-            </apply>
-            <apply>
-              <times/>
-              <ci> prmAntiInflamMicroglia </ci>
-              <apply>
-                <divide/>
-                <ci> Anti_Inflammatory_Microglia </ci>
-                <ci> NbOfMicroglia </ci>
-              </apply>
-            </apply>
-          </apply>
-        </math>
-      </rateRule>
-      <rateRule variable="Pro_Inflammatory_Astroglia" metaid="_788b482c-008b-4d79-95da-96efe85f6032">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">        
-          <ci> DeadLowerMotoNeurons </ci>
-        </math>
-      </rateRule>
-      <rateRule variable="Pro_Inflammatory_Microglia" metaid="_88860791-365a-4268-9a37-235173f8db38">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">        
-          <apply>
-            <plus/>
-            <ci> M_CSF_TxcFctr_Astroglia </ci>
-            <ci> MCP_1_TxcFctr_Astroglia </ci>
-            <ci> TNFalpha_TxcFctr_Microglia </ci>
-            <ci> ROS_NO_TxcFctr_Microglia </ci>
-            <ci> ROS_O2_TxcFctr_Microglia </ci>
-            <ci> IL1b_TxcFctr_Microglia </ci>
-            <ci> IL6_TxcFctr_Microglia </ci>
-            <ci> COX2_TxcFctr_Microglia </ci>
-            <ci> PEG2_TxcFctr_Microglia </ci>
-            <ci> TDP43_TxcFctr_Microglia </ci>
-            <ci> ExtraCell_ATP_Microglia </ci>
-            <ci> DeadLowerMotoNeurons </ci>
-          </apply>
-        </math>
-      </rateRule>
-      <rateRule variable="ExtraCell_ATP_Microglia">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">        
-          <apply>
-            <minus/>
-            <ci> prmExtraCellATPDeadNeurons </ci>
-            <ci> DeadLowerMotoNeurons </ci>
-          </apply>
-        </math>
-      </rateRule>
-      <rateRule variable="Anti_Inflammatory_Microglia">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">        
-          <apply>
-            <minus/>
-            <ci> EAAT2Transporters </ci>
-            <ci> DeadLowerMotoNeurons </ci>
-          </apply>
-        </math>
-      </rateRule>
-      <rateRule variable="CD4_T_Lymphocytes">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">        
-          <apply>
-            <times/>
-            <ci> prmCD4Lymphocytes </ci>
-            <ci> MCP_1_TxcFctr_Astroglia </ci>
-          </apply>
-        </math>
-      </rateRule>
-      <rateRule variable="CD8_T_Lymphocytes">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">        
-          <apply>
-            <times/>
-            <ci> prmCD8Lymphocytes </ci>
-            <ci> MCP_1_TxcFctr_Astroglia </ci>
-          </apply>
-        </math>
-      </rateRule>
-      <rateRule variable="M_CSF_TxcFctr_Astroglia">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">        
-          <apply>
-            <times/>
-            <ci> prmTxcAstroglia </ci>
-            <apply>
-              <divide/>
-              <ci> Pro_Inflammatory_Astroglia </ci>
-              <ci> NbOfAstrocytes </ci>
-            </apply>
-          </apply>
-        </math>
-      </rateRule>
-      <rateRule variable="MCP_1_TxcFctr_Astroglia">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">        
-          <apply>
-            <times/>
-            <ci> prmTxcAstroglia </ci>
-            <apply>
-              <divide/>
-              <ci> Pro_Inflammatory_Astroglia </ci>
-              <ci> NbOfAstrocytes </ci>
-            </apply>
-          </apply>
-        </math>
-      </rateRule>
-      <rateRule variable="TNFalpha_TxcFctr_Microglia">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">        
-          <apply>
-            <times/>
-            <ci> prmTxcMicroglia </ci>
-            <apply>
-              <divide/>
-              <ci> Pro_Inflammatory_Microglia </ci>
-              <ci> NbOfMicroglia </ci>
-            </apply>
-          </apply>
-        </math>
-      </rateRule>
-      <rateRule variable="ROS_NO_TxcFctr_Microglia">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">        
-          <apply>
-            <times/>
-            <ci> prmTxcMicroglia </ci>
-            <apply>
-              <divide/>
-              <ci> Pro_Inflammatory_Microglia </ci>
-              <ci> NbOfMicroglia </ci>
-            </apply>
-          </apply>
-        </math>
-      </rateRule>
-      <rateRule variable="ROS_O2_TxcFctr_Microglia">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">        
-          <apply>
-            <times/>
-            <ci> prmTxcMicroglia </ci>
-            <apply>
-              <divide/>
-              <ci> Pro_Inflammatory_Microglia </ci>
-              <ci> NbOfMicroglia </ci>
-            </apply>
-          </apply>
-        </math>
-      </rateRule>
-      <rateRule variable="IL1b_TxcFctr_Microglia">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">        
-          <apply>
-            <times/>
-            <ci> prmTxcMicroglia </ci>
-            <apply>
-              <divide/>
-              <ci> Pro_Inflammatory_Microglia </ci>
-              <ci> NbOfMicroglia </ci>
-            </apply>
-          </apply>
-        </math>
-      </rateRule>
-      <rateRule variable="IL6_TxcFctr_Microglia">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">        
-          <apply>
-            <times/>
-            <ci> prmTxcMicroglia </ci>
-            <apply>
-              <divide/>
-              <ci> Pro_Inflammatory_Microglia </ci>
-              <ci> NbOfMicroglia </ci>
-            </apply>
-          </apply>
-        </math>
-      </rateRule>
-      <rateRule variable="COX2_TxcFctr_Microglia">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">        
-          <apply>
-            <times/>
-            <ci> prmCOX2_TxcFctr </ci>
-            <apply>
-              <minus/>
-              <ci> NbOfTDP43Microglia </ci>
-              <ci> TDP43_TxcFctr_Microglia </ci>
-            </apply>
-          </apply>
-        </math>
-      </rateRule>
-      <rateRule variable="PEG2_TxcFctr_Microglia">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">        
-          <apply>
-            <times/>
-            <ci> prmPEG2_TxcFctr </ci>
-            <apply>
-              <minus/>
-              <ci> NbOfTDP43Microglia </ci>
-              <ci> TDP43_TxcFctr_Microglia </ci>
-            </apply>
-          </apply>
-        </math>
-      </rateRule>
-      <rateRule variable="TDP43_TxcFctr_Microglia">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">        
-          <apply>
-            <times/>
-            <ci> prmTDP43_TxcFctr </ci>
-            <apply>
-              <divide/>
-              <ci> Anti_Inflammatory_Microglia </ci>
-              <ci> NbOfMicroglia </ci>
-            </apply>
-          </apply>
-        </math>
-      </rateRule>
-    </listOfRules>
-  </model>
+                </notes>
+            </parameter>
+            <parameter name="prmExtraCellATPDeadNeurons" constant="true" id="prmExtraCellATPDeadNeurons" value="1">
+                <notes>
+                    Extracellular ATP, likely coming from damaged motor neurons, binds to microglial purinergic P2 receptors,
+                    therefore, contributing to microglial activation
+                </notes>
+            </parameter>
+            <parameter name="prmCD4TLymphToDeadNeuron" constant="true" id="prmCD4TLymphToDeadNeuron" value="0.55">
+                <notes>
+                    Pro Inflammatory Astroglia
+                </notes>
+            </parameter>
+            <parameter name="prmCD8TLymphToDeadNeuron" constant="true" id="prmCD8TLymphToDeadNeuron" value="0.55">
+                <notes>
+                    Pro Inflammatory Microglia
+                </notes>
+            </parameter>
+            <parameter name="prmAntiInflamMicroglia" constant="true" id="prmAntiInflamMicroglia" value="1">
+                <notes>
+                    Anti Inflammatory Microglia
+                </notes>
+            </parameter>
+            <parameter name="prmProInflamMicroglia" constant="true" id="prmProInflamMicroglia" value="1">
+                <notes>
+                    Pro Inflammatory Microglia
+                </notes>
+            </parameter>
+            <parameter name="prmNonInflamAstroglia" constant="true" id="prmNonInflamAstroglia" value="1">
+                <notes>
+                    Quiescent astroglia
+                </notes>
+            </parameter>
+            <parameter name="prmTxcAstroglia" constant="true" id="prmTxcAstroglia" value="16">
+                <notes>
+                    Toxic output from astroglia
+                </notes>
+            </parameter>
+            <parameter name="prmTxcMicroglia" constant="true" id="prmTxcMicroglia" value="1">
+                <notes>
+                    Toxic output from microglia
+                </notes>
+            </parameter>
+            <parameter name="prmCycloOxygenase2" constant="true" id="prmCycloOxygenase2" value="1">
+                <notes>
+                    Toxic output from microglia
+                </notes>
+            </parameter>
+            <parameter name="prmCD4Lymphocytes" constant="true" id="prmCD4Lymphocytes" value="0.5">
+                <notes>
+                    Controls the production of CD4 T_Lymphocytes in a dependency with the number of dying neurons
+                </notes>
+            </parameter>
+            <parameter name="prmCD8Lymphocytes" constant="true" id="prmCD8Lymphocytes" value="0.5">
+                <notes>
+                    Controls the production of CD8 T_Lymphocytes in a dependency with the number of dying neurons
+                </notes>
+            </parameter>
+            <parameter name="prmCOX2_TxcFctr" constant="true" id="prmCOX2_TxcFctr" value="0.5">
+                <notes>
+                    Controls the production of COX-2
+                </notes>
+            </parameter>
+            <parameter name="prmPEG2_TxcFctr" constant="true" id="prmPEG2_TxcFctr" value="0.5">
+                <notes>
+                    Controls the production of PEG-2
+                </notes>
+            </parameter>
+            <parameter name="prmTDP43_TxcFctr" constant="true" id="prmTDP43_TxcFctr" value="0.5">
+                <notes>
+                    Controls the production of PEG-2
+                </notes>
+            </parameter>
+        </listOfParameters>
+        <listOfRules>
+            <rateRule variable="DeadLowerMotoNeurons" metaid="db19c551-9a1b-4c4f-a22b-5cb828b14a48">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">        
+                    <apply>
+                        <times/>
+                        <ci> NbOfNeurons </ci>
+                        <apply>
+                            <divide/>
+                            <apply>
+                                <plus/>
+                                <apply>
+                                    <times/>
+                                    <ci> prmCD4TLymphToDeadNeuron </ci>
+                                    <ci> CD4_T_Lymphocytes </ci>
+                                </apply>
+                                <apply>
+                                    <times/>
+                                    <ci> prmCD8TLymphToDeadNeuron </ci>
+                                    <ci> CD8_T_Lymphocytes </ci>
+                                </apply>
+                            </apply>
+                            <apply>
+                                <plus/>
+                                <ci> NbOfAstrocytes </ci>
+                                <ci> NbOfMicroglia </ci>
+                            </apply>
+                        </apply>
+                    </apply>
+                </math>
+            </rateRule>
+            <rateRule variable="LivingLowerMotoNeurons" metaid="c7b7bcea-1097-42ef-8111-4023cebc0e75">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">        
+                    <apply>
+                        <minus/>
+                        <ci> DeadLowerMotoNeurons </ci>
+                    </apply>
+                </math>
+            </rateRule>
+            <rateRule variable="EAAT2Transporters">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">        
+                    <apply>
+                        <minus/>
+                        <apply>
+                            <times/>
+                            <ci> prmProInflamMicroglia </ci>
+                            <apply>
+                                <divide/>
+                                <ci> Pro_Inflammatory_Microglia </ci>
+                                <ci> NbOfMicroglia </ci>
+                            </apply>
+                        </apply>
+                        <apply>
+                            <times/>
+                            <ci> prmAntiInflamMicroglia </ci>
+                            <apply>
+                                <divide/>
+                                <ci> Anti_Inflammatory_Microglia </ci>
+                                <ci> NbOfMicroglia </ci>
+                            </apply>
+                        </apply>
+                    </apply>
+                </math>
+            </rateRule>
+            <rateRule variable="Pro_Inflammatory_Astroglia" metaid="_788b482c-008b-4d79-95da-96efe85f6032">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">        
+                    <ci> DeadLowerMotoNeurons </ci>
+                </math>
+            </rateRule>
+            <rateRule variable="Pro_Inflammatory_Microglia" metaid="_88860791-365a-4268-9a37-235173f8db38">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">        
+                    <apply>
+                        <plus/>
+                        <ci> M_CSF_TxcFctr_Astroglia </ci>
+                        <ci> MCP_1_TxcFctr_Astroglia </ci>
+                        <ci> TNFalpha_TxcFctr_Microglia </ci>
+                        <ci> ROS_NO_TxcFctr_Microglia </ci>
+                        <ci> ROS_O2_TxcFctr_Microglia </ci>
+                        <ci> IL1b_TxcFctr_Microglia </ci>
+                        <ci> IL6_TxcFctr_Microglia </ci>
+                        <ci> COX2_TxcFctr_Microglia </ci>
+                        <ci> PEG2_TxcFctr_Microglia </ci>
+                        <ci> TDP43_TxcFctr_Microglia </ci>
+                        <ci> ExtraCell_ATP_Microglia </ci>
+                        <ci> DeadLowerMotoNeurons </ci>
+                    </apply>
+                </math>
+            </rateRule>
+            <rateRule variable="ExtraCell_ATP_Microglia">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">        
+                    <apply>
+                        <minus/>
+                        <ci> prmExtraCellATPDeadNeurons </ci>
+                        <ci> DeadLowerMotoNeurons </ci>
+                    </apply>
+                </math>
+            </rateRule>
+            <rateRule variable="Anti_Inflammatory_Microglia"> 
+                <math xmlns="http://www.w3.org/1998/Math/MathML">        
+                    <apply>
+                        <minus/>
+                        <apply>
+                            <divide/>
+                            <ci> EAAT2Transporters </ci>
+                            <ci> NbOfAstrocytes </ci>
+                        </apply>
+                    </apply>
+                </math>
+            </rateRule>
+            <rateRule variable="CD4_T_Lymphocytes">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">        
+                    <apply>
+                        <times/>
+                        <ci> prmCD4Lymphocytes </ci>
+                        <ci> MCP_1_TxcFctr_Astroglia </ci>
+                    </apply>
+                </math>
+            </rateRule>
+            <rateRule variable="CD8_T_Lymphocytes">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">        
+                    <apply>
+                        <times/>
+                        <ci> prmCD8Lymphocytes </ci>
+                        <ci> MCP_1_TxcFctr_Astroglia </ci>
+                    </apply>
+                </math>
+            </rateRule>
+            <rateRule variable="M_CSF_TxcFctr_Astroglia">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">        
+                    <apply>
+                        <times/>
+                        <ci> prmTxcAstroglia </ci>
+                        <apply>
+                            <divide/>
+                            <ci> Pro_Inflammatory_Astroglia </ci>
+                            <ci> NbOfAstrocytes </ci>
+                        </apply>
+                    </apply>
+                </math>
+            </rateRule>
+            <rateRule variable="MCP_1_TxcFctr_Astroglia">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">        
+                    <apply>
+                        <times/>
+                        <ci> prmTxcAstroglia </ci>
+                        <apply>
+                            <divide/>
+                            <ci> Pro_Inflammatory_Astroglia </ci>
+                            <ci> NbOfAstrocytes </ci>
+                        </apply>
+                    </apply>
+                </math>
+            </rateRule>
+            <rateRule variable="TNFalpha_TxcFctr_Microglia">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">        
+                    <apply>
+                        <times/>
+                        <ci> prmTxcMicroglia </ci>
+                        <apply>
+                            <divide/>
+                            <ci> Pro_Inflammatory_Microglia </ci>
+                            <ci> NbOfMicroglia </ci>
+                        </apply>
+                    </apply>
+                </math>
+            </rateRule>
+            <rateRule variable="ROS_NO_TxcFctr_Microglia">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">        
+                    <apply>
+                        <times/>
+                        <ci> prmTxcMicroglia </ci>
+                        <apply>
+                            <divide/>
+                            <ci> Pro_Inflammatory_Microglia </ci>
+                            <ci> NbOfMicroglia </ci>
+                        </apply>
+                    </apply>
+                </math>
+            </rateRule>
+            <rateRule variable="ROS_O2_TxcFctr_Microglia">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">        
+                    <apply>
+                        <times/>
+                        <ci> prmTxcMicroglia </ci>
+                        <apply>
+                            <divide/>
+                            <ci> Pro_Inflammatory_Microglia </ci>
+                            <ci> NbOfMicroglia </ci>
+                        </apply>
+                    </apply>
+                </math>
+            </rateRule>
+            <rateRule variable="IL1b_TxcFctr_Microglia">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">        
+                    <apply>
+                        <times/>
+                        <ci> prmTxcMicroglia </ci>
+                        <apply>
+                            <divide/>
+                            <ci> Pro_Inflammatory_Microglia </ci>
+                            <ci> NbOfMicroglia </ci>
+                        </apply>
+                    </apply>
+                </math>
+            </rateRule>
+            <rateRule variable="IL6_TxcFctr_Microglia">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">        
+                    <apply>
+                        <times/>
+                        <ci> prmTxcMicroglia </ci>
+                        <apply>
+                            <divide/>
+                            <ci> Pro_Inflammatory_Microglia </ci>
+                            <ci> NbOfMicroglia </ci>
+                        </apply>
+                    </apply>
+                </math>
+            </rateRule>
+            <rateRule variable="COX2_TxcFctr_Microglia">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">        
+                    <apply>
+                        <times/>
+                        <ci> prmCOX2_TxcFctr </ci>
+                        <apply>
+                            <minus/>
+                            <ci> NbOfTDP43Microglia </ci>
+                            <ci> TDP43_TxcFctr_Microglia </ci>
+                        </apply>
+                    </apply>
+                </math>
+            </rateRule>
+            <rateRule variable="PEG2_TxcFctr_Microglia">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">        
+                    <apply>
+                        <times/>
+                        <ci> prmPEG2_TxcFctr </ci>
+                        <apply>
+                            <minus/>
+                            <ci> NbOfTDP43Microglia </ci>
+                            <ci> TDP43_TxcFctr_Microglia </ci>
+                        </apply>
+                    </apply>
+                </math>
+            </rateRule>
+            <rateRule variable="TDP43_TxcFctr_Microglia">
+                <math xmlns="http://www.w3.org/1998/Math/MathML">        
+                    <apply>
+                        <times/>
+                        <ci> prmTDP43_TxcFctr </ci>
+                        <apply>
+                            <divide/>
+                            <ci> Anti_Inflammatory_Microglia </ci>
+                            <ci> NbOfMicroglia </ci>
+                        </apply>
+                    </apply>
+                </math>
+            </rateRule>
+        </listOfRules>
+    </model>
 </sbml>
