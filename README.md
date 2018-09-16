@@ -71,6 +71,7 @@ receptors, thereby contributing to microglial activation.<br>
 • Dendritic cells (antigen-presenting cells) secrete MCP-1, which probably participates in the
 infiltration of peripheral immune cells.<br>
 => To be done<br>
+<br>
 • Motor neurons can also participate in glial cell activation by releasing mutant SOD1 co-
 secreted with chromogranin (Cg) that can bind to CD14 acting in concert with Toll-like
 receptors (TLR2 / 4).<br>
