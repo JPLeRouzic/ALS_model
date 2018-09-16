@@ -190,6 +190,7 @@
 </species>
 
 <!--
+	    * For future reference
       <species boundaryCondition="true" constant="false" metaid="COPASI2511" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="Monocyte" id="Monocyte" initialConcentration="1">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
@@ -200,6 +201,7 @@
 </species>
 
 
+	    * For future reference
       <species boundaryCondition="true" constant="false" metaid="COPASI2211" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="B_Cell" id="B_Cell" initialConcentration="1">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
@@ -211,7 +213,7 @@
                     </body>        </notes>
 </species>
 
-
+	    * For future reference
       <species boundaryCondition="true" constant="false" metaid="COPASI2212" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="T_Cell" id="T_Cell" initialConcentration="1">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
@@ -226,25 +228,24 @@
                     </body>        </notes>
 </species>
 
-
+	    * For future reference
       <species boundaryCondition="true" constant="false" metaid="COPASI2213" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="DentriticCell" id="DentriticCell" initialConcentration="1">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-		 For future reference. 
+		For future reference. 
                 Dendritic cells are antigen-presenting cells. They process ("eat") material found in the ECM and present it to the T cells.<br/> 
 		They act as messengers between the innate and the adaptive immune systems. 
                     </body>        </notes>
 </species>
 
-            -->
-
+	    * For future reference
             <species boundaryCondition="true" constant="false" metaid="COPASI2311" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="Cytokines" id="Cytokines" initialConcentration="1">
                 <notes>
                     <body xmlns="http://www.w3.org/1999/xhtml">
                         <pre>Cytokines</pre>
                     </body>                </notes>
             </species>
-
+-->
 
             <species boundaryCondition="true" constant="false" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="CD4_T_Lymphocytes" id="CD4_T_Lymphocytes" initialConcentration="0">
                 <notes>
@@ -400,18 +401,6 @@
 
   </listOfSpecies>
         <listOfParameters>
-            <parameter name="prmDeadNeurons" constant="true" id="prmDeadNeurons" value="1">
-                <notes>
-                    Dead neurons
-                </notes>
-            </parameter>
-
-            <parameter name="prmLivingNeurons" constant="true" id="prmLivingNeurons" value="0.5">
-                <notes>
-                    Living neurons
-                </notes>
-            </parameter>
-
             <parameter name="Nb of neurons" id="NbOfNeurons" value="1000000">
                 <notes>
           
@@ -448,10 +437,16 @@
             </notes>
         </parameter>
 
-        <parameter name="prmExtraCellATPDeadNeurons" constant="true" id="prmExtraCellATPDeadNeurons" value="0.08">
+        <parameter name="prmExtraCellATPDeadNeurons" constant="true" id="prmExtraCellATPDeadNeurons" value="1">
             <notes>
                 Extracellular ATP, likely coming from damaged motor neurons, binds to microglial purinergic P2 receptors,
                 therefore, contributing to microglial activation
+            </notes>
+        </parameter>
+
+        <parameter name="prmCD4TLymphToDeadNeuron" constant="true" id="prmCD4TLymphToDeadNeuron" value="1">
+            <notes>
+                Pro Inflammatory Astroglia
             </notes>
         </parameter>
 
@@ -470,12 +465,6 @@
         <parameter name="prmProInflamMicroglia" constant="true" id="prmProInflamMicroglia" value="0">
             <notes>
                 Pro Inflammatory Microglia
-            </notes>
-        </parameter>
-
-        <parameter name="prmCD4TLymphToDeadNeuron" constant="true" id="prmCD4TLymphToDeadNeuron" value="1">
-            <notes>
-                Pro Inflammatory Astroglia
             </notes>
         </parameter>
 
@@ -539,34 +528,6 @@
         <listOfRules>
             <rateRule variable="DeadLowerMotoNeurons" metaid="db19c551-9a1b-4c4f-a22b-5cb828b14a48">
                 <math xmlns="http://www.w3.org/1998/Math/MathML">   
-                    <!--     
-                    2018/9/14
-                              <apply>
-                                <times/>
-                                <ci> NbOfNeurons </ci>
-                                <apply>
-                                  <divide/>
-                                  <apply>
-                                    <plus/>
-                                    <apply>
-                                      <times/>
-                                      <ci> prmCD4TLymphToDeadNeuron </ci>
-                                      <ci> Pro_Inflammatory_Astroglia </ci>
-                                    </apply>
-                                    <apply>
-                                      <times/>
-                                      <ci> prmCD8TLymphToDeadNeuron </ci>
-                                      <ci> Pro_Inflammatory_Microglia </ci>
-                                    </apply>
-                                  </apply>
-                                  <apply>
-                                    <plus/>
-                                    <ci> NbOfAstrocytes </ci>
-                                    <ci> NbOfMicroglia </ci>
-                                  </apply>
-                                </apply>
-                              </apply>
-                    -->
                     <apply>
                         <times/>
                         <ci> NbOfNeurons </ci>
@@ -677,7 +638,7 @@
                     <apply>
                         <times/>
                         <ci> prmCD4Lymphocytes </ci>
-                        <ci> Other_TxcFctrs_Astroglia </ci>
+                        <ci> MCP_1_TxcFctr_Astroglia </ci>
                     </apply>
                 </math>
             </rateRule>
@@ -687,7 +648,7 @@
                     <apply>
                         <times/>
                         <ci> prmCD8Lymphocytes </ci>
-                        <ci> Other_TxcFctrs_Astroglia </ci>
+                        <ci> MCP_1_TxcFctr_Astroglia </ci>
                     </apply>
                 </math>
             </rateRule>
@@ -858,6 +819,9 @@ TDP43 Depletion in Microglia Promotes Amyloid Clearance but Also Induces Synapse
                 </math>
             </rateRule>
 
+<!--
+		For future reference
+
             <rateRule variable="Other_TxcFctrs_Microglia">
                 <math xmlns="http://www.w3.org/1998/Math/MathML">        
                     <apply>
@@ -872,6 +836,8 @@ TDP43 Depletion in Microglia Promotes Amyloid Clearance but Also Induces Synapse
                 </math>
             </rateRule>
 
+		For future reference
+
             <rateRule variable="Cytokines">
                 <math xmlns="http://www.w3.org/1998/Math/MathML">        
                     <apply>
@@ -885,7 +851,7 @@ TDP43 Depletion in Microglia Promotes Amyloid Clearance but Also Induces Synapse
                     </apply>
                 </math>
             </rateRule>
-
+-->
 
 
             <!-- Part about metabolism -->     
