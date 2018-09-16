@@ -54,24 +54,23 @@ by increasing their proliferation (M-CSF) or their migration (MCP-1).<br>
 receptor.<br>
 => Partly done<br>
 <br>
-• The cell model includes the complete dopamine (DA) synthesis, metabolism, and transport
-introduced by Best et al.<br>
-=> To be done (adapted from Büchel et al. and merged in and then removed because it created instability)<br>
-<br>
 • It models mitochondrial biogenesis and mitophagy, degradation processes of the lysosome
 and the proteasome, and reactions of the cell to reactive oxygen species (ROS).<br>
-=> To be done (A model adapted from Büchel et al. was studied but not merged because fear of instability)<br>
+=> Partly done<br>
 <br>
 • Activated (pro inflammatory) microglial cells will produce more reactive oxygen species
 (ROS) such as nitric oxide (NO) via NO synthase and superoxide (O2-) by activation of
 NADPH oxidases (Nox 1/2), but also pro-inflammatory cytokines 6 (IL-1β, IL-6) and
 prostaglandins (PGE2) by activation of cyclooxygenase 2 (COX2).<br>
-=> To be done<br>
+=> Partly done<br>
 <br>
 • Extracellular ATP, probably from damaged motor neurons, binds to microglia purinergic P2
 receptors, thereby contributing to microglial activation.<br>
-=> To be done<br>
+=> Partly done<br>
 <br>
+• Dendritic cells (antigen-presenting cells) secrete MCP-1, which probably participates in the
+infiltration of peripheral immune cells.<br>
+=> To be done<br>
 • Motor neurons can also participate in glial cell activation by releasing mutant SOD1 co-
 secreted with chromogranin (Cg) that can bind to CD14 acting in concert with Toll-like
 receptors (TLR2 / 4).<br>
@@ -94,9 +93,6 @@ cells to increase their neurotrophic function (production of insulin-like growth
 spinal cord.<br>
 => To be done<br>
 <br>
-• Dendritic cells (antigen-presenting cells) secrete MCP-1, which probably participates in the
-infiltration of peripheral immune cells.<br>
-=> To be done<br>
 <br>
 • Neurons become Giant Motor Units (to compensate dying neurons)<br>
 (from David J on an ALS forum)<br>
@@ -105,6 +101,10 @@ infiltration of peripheral immune cells.<br>
 • Additionally, the two genes HtrA2 and PINK1, both of which are involved in the
 mitochondrial stress response, are also integrated.<br>
 => To be done<br>
+• The cell model includes the complete dopamine (DA) synthesis, metabolism, and transport
+introduced by Best et al.<br>
+=> To be done (adapted from Büchel et al. and merged in and then removed because it created instability)<br>
+<br>
 
 
 
