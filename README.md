@@ -90,19 +90,19 @@ cells to increase their neurotrophic function (production of insulin-like growth
 (IGF-1)) .<br>
 => To be done<br>
 <br>
-• The role of infiltrating CD8+ T cells remains to determine and B cells are not present in the
-spinal cord.<br>
+• The role of infiltrating CD8+ T cells remains to determine and are B cells (or not) present in the
+spinal cord?<br>
 => To be done<br>
 <br>
-<br>
-• Neurons become Giant Motor Units (to compensate dying neurons)<br>
+• Neurons become Giant Motor Units (to compensate dying neurons) and become scenescent or even die in the process<br>
 (from David J on an ALS forum)<br>
 => To be done<br>
 <br>
 • Additionally, the two genes HtrA2 and PINK1, both of which are involved in the
-mitochondrial stress response, are also integrated.<br>
+mitochondrial stress response, will also be integrated.<br>
 => To be done<br>
-• The cell model includes the complete dopamine (DA) synthesis, metabolism, and transport
+<br>
+• The cell model should include the complete dopamine (DA) synthesis, metabolism, and transport
 introduced by Best et al.<br>
 => To be done (adapted from Büchel et al. and merged in and then removed because it created instability)<br>
 <br>
