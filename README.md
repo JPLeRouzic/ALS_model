@@ -95,7 +95,6 @@ spinal cord?<br>
 => To be done<br>
 <br>
 • Neurons become Giant Motor Units (to compensate dying neurons) and become scenescent or even die in the process<br>
-(from David J on an ALS forum)<br>
 => To be done<br>
 <br>
 • Additionally, the two genes HtrA2 and PINK1, both of which are involved in the
