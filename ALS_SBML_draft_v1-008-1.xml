@@ -66,6 +66,7 @@
       <compartment constant="true" size="0.0055" metaid="_15807251-6568-48ac-8f23-b56570441672" name="Capillaries" id="Capillaries" spatialDimensions="3"/>
       <compartment constant="true" size="0.0237" metaid="dd33450c-6095-4d8e-9482-3ad351480412" name="Veins" id="Veins" spatialDimensions="3"/>
     </listOfCompartments>
+    <listOfUnitDefinitions>
     <listOfSpecies>
       <species boundaryCondition="true" constant="false" metaid="COPASI215" hasOnlySubstanceUnits="false" compartment="CentralNervousSystem" name="LivingLowerMotoNeurons" id="LivingLowerMotoNeurons" initialConcentration="999999">
         <notes>
